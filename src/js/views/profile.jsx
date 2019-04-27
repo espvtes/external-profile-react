@@ -388,7 +388,7 @@ export class Profile extends React.Component {
 								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
+										className="card-img-top logo"
 										alt="..."
 									/>
 									<div className="card-body">
@@ -398,8 +398,8 @@ export class Profile extends React.Component {
 										<h5 className="card-text text-info">
 											#Velocity
 										</h5>
-										<p className="card-text">
-											<small className="text-muted">
+										<p className="card-text text-card">
+											<small className="text-muted text-card">
 												A responsive website template
 												designed to help startup
 												promote, market and sell their
@@ -411,7 +411,7 @@ export class Profile extends React.Component {
 								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
+										className="card-img-top logo"
 										alt="..."
 									/>
 									<div className="card-body">
@@ -421,7 +421,7 @@ export class Profile extends React.Component {
 										<h5 className="card-text text-info">
 											#Devstudio
 										</h5>
-										<p className="card-text">
+										<p className="card-text text-card">
 											<small className="text-muted">
 												A responsive website template
 												designed to help startup
@@ -434,7 +434,7 @@ export class Profile extends React.Component {
 								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
+										className="card-img-top logo"
 										alt="..."
 									/>
 									<div className="card-body">
@@ -444,7 +444,7 @@ export class Profile extends React.Component {
 										<h5 className="card-text text-info">
 											#Tempo
 										</h5>
-										<p className="card-text">
+										<p className="card-text text-card">
 											<small className="text-muted">
 												A responsive website template
 												designed to help startup
@@ -457,7 +457,7 @@ export class Profile extends React.Component {
 								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
+										className="card-img-top logo"
 										alt="..."
 									/>
 									<div className="card-body">
@@ -467,7 +467,7 @@ export class Profile extends React.Component {
 										<h5 className="card-text text-info">
 											#Atom
 										</h5>
-										<p className="card-text">
+										<p className="card-text text-card">
 											<small className="text-muted">
 												A responsive website template
 												designed to help startup
@@ -480,7 +480,7 @@ export class Profile extends React.Component {
 								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
+										className="card-img-top logo"
 										alt="..."
 									/>
 									<div className="card-body">
@@ -490,8 +490,8 @@ export class Profile extends React.Component {
 										<h5 className="card-text text-info">
 											#Delta
 										</h5>
-										<p className="card-text">
-											<small className="text-muted m-0">
+										<p className="card-text text-card">
+											<small className="text-muted">
 												A responsive website template
 												designed to help startup
 												promote, market and sell their
