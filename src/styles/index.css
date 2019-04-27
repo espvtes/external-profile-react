@@ -21,7 +21,7 @@
     width: 65px;
     font-size: 8px;
     text-align:center;
-    /*background-color: black;*/
+    z-index: 20;
     position: fixed;
 }
 .list-group-item-action {
@@ -123,8 +123,8 @@ html {
 }
 
 .logo{
-    width: 214px;
-    height: 168px;
+    width: 100%;
+    
 }
 .line{
     
@@ -133,4 +133,10 @@ overflow: hidden;
     border-width: 1px;
     display: block;
     width: 50%;
+}
+
+
+/*vetical-menu*/
+.vetical-menu{
+    width:80px;
 }
