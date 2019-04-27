@@ -124,6 +124,7 @@ html {
 
 .logo{
     width: 100%;
+    height: auto;
     
 }
 .line{
@@ -136,7 +137,5 @@ overflow: hidden;
 }
 
 
-/*vetical-menu*/
-.vetical-menu{
-    width:80px;
-}
+
+

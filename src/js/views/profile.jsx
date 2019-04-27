@@ -267,7 +267,7 @@ export class Profile extends React.Component {
 										Startup Hubs, San Francisco
 									</h2>
 								</div>
-								<div className="col-sm-4 float-right divider">
+								<div className="col-sm-4 float-right divider img-div">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="mx-auto float-right logo"
@@ -385,7 +385,7 @@ export class Profile extends React.Component {
 								</div>
 							</div>
 							<div className="card-deck pt-4">
-								<div className="card">
+								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="card-img-top"
@@ -408,7 +408,7 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card">
+								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="card-img-top"
@@ -431,7 +431,7 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card">
+								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="card-img-top"
@@ -454,7 +454,7 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card">
+								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="card-img-top"
@@ -477,7 +477,7 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card">
+								<div className="card border-0">
 									<img
 										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 										className="card-img-top"
