@@ -25,63 +25,117 @@ export class Profile extends React.Component {
 		const skechStyle = {
 			width: "60%"
 		};
+
+		let mainNavLinks = document.querySelectorAll("nav ul li a");
+		let mainSections = document.querySelectorAll("main section");
+
+		let lastId;
+		let cur = [];
+
+		// This should probably be throttled.
+		// Especially because it triggers during smooth scrolling.
+		// https://lodash.com/docs/4.17.10#throttle
+		// You could do like...
+		// window.addEventListener("scroll", () => {
+		//    _.throttle(doThatStuff, 100);
+		// });
+		// Only not doing it here to keep this Pen dependency-free.
+
+		window.addEventListener("scroll", event => {
+			let fromTop = window.scrollY;
+
+			mainNavLinks.forEach(link => {
+				let section = document.querySelector(link.hash);
+
+				if (
+					section.offsetTop <= fromTop &&
+					section.offsetTop + section.offsetHeight > fromTop
+				) {
+					link.classList.add("current");
+				} else {
+					link.classList.remove("current");
+				}
+			});
+		});
 		return (
 			<div className="container-fluid">
 				<div className="parallax">
-					<div id="list-example" className="list-group text-center">
-						<a className="list-group-item list-group-item-action pl-3">
-							<img
-								src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
-								className="img-menu"
-								alt="Avatar"
-							/>
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#summary">
-							<i className="fas fa-file-invoice fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#language">
-							<i className="fas fa-language fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#interests">
-							<i className="fas fa-bicycle fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#experiences">
-							<i className="fas fa-chart-line fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#projects">
-							<i className="far fa-file-code fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#skills">
-							<i className="far fa-star fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#github">
-							<i className="fab fa-github fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#education">
-							<i className="fas fa-graduation-cap fa-3x" />
-						</a>
-						<a
-							className="list-group-item list-group-item-action"
-							href="#contact">
-							<i className="fas fa-user-alt fa-3x" />
-						</a>
-					</div>
+					<nav id="list-example" className="list-group text-center">
+						<ul>
+							<li>
+								<a className="list-group-item list-group-item-action pl-3">
+									<img
+										src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
+										className="img-menu"
+										alt="Avatar"
+									/>
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-1">
+									<i className="fas fa-file-invoice fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-2">
+									<i className="fas fa-language fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-3">
+									<i className="fas fa-bicycle fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-4">
+									<i className="fas fa-chart-line fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-5">
+									<i className="far fa-file-code fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-6">
+									<i className="far fa-star fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-7">
+									<i className="fab fa-github fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-8">
+									<i className="fas fa-graduation-cap fa-3x" />
+								</a>
+							</li>
+							<li>
+								<a
+									className="list-group-item list-group-item-action"
+									href="#section-9">
+									<i className="fas fa-user-alt fa-3x" />
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 				<div className="d-flex flex-column text-center gradient">
 					<div className="bd-highlight pt-4">
@@ -130,7 +184,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="fas fa-file-invoice text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="summary">
+								<div
+									className="p-2 bd-highlight"
+									id="section-1">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
 									</label>
@@ -166,7 +222,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="fas fa-language text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="language">
+								<div
+									className="p-2 bd-highlight"
+									id="section-2">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
 									</label>
@@ -225,7 +283,7 @@ export class Profile extends React.Component {
 								</div>
 								<div
 									className="p-2 bd-highlight"
-									id="interests">
+									id="section-3">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
 									</label>
@@ -251,7 +309,7 @@ export class Profile extends React.Component {
 								</div>
 								<div
 									className="p-2 bd-highlight"
-									id="experiences">
+									id="section-4">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;E&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
 									</label>
@@ -378,7 +436,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="far fa-file-code text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="projects">
+								<div
+									className="p-2 bd-highlight"
+									id="section-5">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
 									</label>
@@ -521,7 +581,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="far fa-star text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="skills">
+								<div
+									className="p-2 bd-highlight"
+									id="section-6">
 									{" "}
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
@@ -641,7 +703,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="fab fa-github text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="github">
+								<div
+									className="p-2 bd-highlight"
+									id="section-7">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;G&nbsp;i&nbsp;t&nbsp;h&nbsp;u&nbsp;b
 									</label>
@@ -670,7 +734,7 @@ export class Profile extends React.Component {
 								</div>
 								<div
 									className="p-2 bd-highlight"
-									id="education">
+									id="section-8">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
 									</label>
@@ -767,7 +831,9 @@ export class Profile extends React.Component {
 								<div className="p-2 bd-highlight">
 									<i className="fas fa-user-alt text-warning fa-3x icon" />
 								</div>
-								<div className="p-2 bd-highlight" id="contact">
+								<div
+									className="p-2 bd-highlight"
+									id="section-9">
 									<label className="font-italic font-weight-light text-dark title">
 										&nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
 									</label>
