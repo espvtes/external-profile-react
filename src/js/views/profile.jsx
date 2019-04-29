@@ -32,7 +32,7 @@ export class Profile extends React.Component {
 						<a className="list-group-item list-group-item-action pl-3">
 							<img
 								src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
-								className="image"
+								className="img-menu"
 								alt="Avatar"
 							/>
 						</a>
@@ -384,13 +384,15 @@ export class Profile extends React.Component {
 									</label>
 								</div>
 							</div>
-							<div className="card-deck pt-4">
-								<div className="card border-0">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top logo"
-										alt="..."
-									/>
+							<div className="row pt-4">
+								<div className="col col-sm-4">
+									<div className="img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top logo"
+											alt="..."
+										/>
+									</div>
 									<div className="card-body">
 										<h5 className="card-title">
 											<strong>VELOCITY</strong>
@@ -408,12 +410,14 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card border-0">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top logo"
-										alt="..."
-									/>
+								<div className="col col-sm-4 divider">
+									<div className="img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top logo"
+											alt="..."
+										/>
+									</div>
 									<div className="card-body">
 										<h5 className="card-title">
 											<strong>DEVSTUDIO</strong>
@@ -431,12 +435,14 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card border-0">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top logo"
-										alt="..."
-									/>
+								<div className="col col-sm-4 divider">
+									<div className="img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top logo"
+											alt="..."
+										/>
+									</div>
 									<div className="card-body">
 										<h5 className="card-title">
 											<strong>TEMP0</strong>
@@ -454,12 +460,17 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card border-0">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top logo"
-										alt="..."
-									/>
+							</div>
+							<hr className="border-bottom bg-info pt-1" />
+							<div className="row">
+								<div className="col col-sm-4">
+									<div className="img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top logo"
+											alt="..."
+										/>
+									</div>
 									<div className="card-body">
 										<h5 className="card-title">
 											<strong>ATOM</strong>
@@ -477,12 +488,14 @@ export class Profile extends React.Component {
 										</p>
 									</div>
 								</div>
-								<div className="card border-0">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top logo"
-										alt="..."
-									/>
+								<div className="col col-sm-4 divider">
+									<div className="img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top logo"
+											alt="..."
+										/>
+									</div>
 									<div className="card-body">
 										<h5 className="card-title">
 											<strong>DELTA</strong>
@@ -674,7 +687,7 @@ export class Profile extends React.Component {
 									<div className="img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto b-block"
+											className="mx-auto b-block img-edu"
 											alt="..."
 										/>
 									</div>
@@ -712,10 +725,10 @@ export class Profile extends React.Component {
 									<h3 className="text-muted">
 										Bristol University
 									</h3>
-									<div clasname="img">
+									<div clasname="">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto b-block"
+											className="mx-auto b-block img-edu"
 											alt="..."
 										/>
 									</div>
