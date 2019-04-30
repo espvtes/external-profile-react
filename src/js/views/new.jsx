@@ -728,7 +728,7 @@ export class New extends React.Component {
 								</div>
 							</div>
 							<div className="row justify-content-around pt-4">
-								<div className="col col-sm-4 pr-4">
+								<div className="col col-sm-6 pr-4">
 									<h2 className="pt-2 font-weight-bold">
 										MSC IN COMPUTER SCIENCE
 									</h2>
@@ -769,7 +769,7 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="col col-sm-4 divider pl-4">
+								<div className="col col-sm-6 divider pl-4">
 									<h2 className="pt-2 font-weight-bold">
 										BSC IN APPLIED MATHEMATICS
 									</h2>
