@@ -1,5 +1,7 @@
 import React from "react";
 import "../../styles/index.css";
+import ReactTooltip from "react-tooltip";
+import { findDOMNode } from "react-dom";
 
 export class New extends React.Component {
 	render() {
@@ -28,18 +30,6 @@ export class New extends React.Component {
 		let mainNavLinks = document.querySelectorAll("nav ul li a");
 		let mainSections = document.querySelectorAll("main section");
 
-		let lastId;
-		let cur = [];
-
-		// This should probably be throttled.
-		// Especially because it triggers during smooth scrolling.
-		// https://lodash.com/docs/4.17.10#throttle
-		// You could do like...
-		// window.addEventListener("scroll", () => {
-		//    _.throttle(doThatStuff, 100);
-		// });
-		// Only not doing it here to keep this Pen dependency-free.
-
 		window.addEventListener("scroll", event => {
 			let fromTop = window.scrollY;
 
@@ -59,9 +49,9 @@ export class New extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="parallax" id="section-top">
-					<nav className="list-group text-center">
-						<ul>
-							<li>
+					<nav className="list-group text-center float-left">
+						<ul className="rounded">
+							<li className="border-bottom">
 								<a href="#section-top" className="menu-img">
 									<img
 										src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
@@ -70,42 +60,42 @@ export class New extends React.Component {
 									/>
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-1">
 									<i className="fas fa-file-invoice fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-2">
 									<i className="fas fa-language fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-3">
 									<i className="fas fa-bicycle fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-4">
 									<i className="fas fa-chart-line fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-5">
 									<i className="far fa-file-code fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-6">
 									<i className="far fa-star fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-7">
 									<i className="fab fa-github fa-3x" />
 								</a>
 							</li>
-							<li>
+							<li className="border-bottom">
 								<a href="#section-8">
 									<i className="fas fa-graduation-cap fa-3x" />
 								</a>
@@ -117,6 +107,14 @@ export class New extends React.Component {
 							</li>
 						</ul>
 					</nav>
+					<div className="img float-right">
+						<img
+							src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+							className="rounded geeks-img float-right pt-4 pr-4"
+							width="100"
+							alt="..."
+						/>
+					</div>
 				</div>
 				<div className="d-flex flex-column text-center gradient">
 					<div className="bd-highlight pt-4">
@@ -574,7 +572,7 @@ export class New extends React.Component {
 								</div>
 							</div>
 							<div className="row  justify-content-around py-4">
-								<div className="col-4 d-flex flex-column bd-highlight mb-6">
+								<div className="col-4">
 									<div className="p-2 bd-highlight">
 										<label className="python">
 											<strong>Python &amp; Django</strong>
@@ -624,7 +622,7 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="col-4 d-flex flex-column bd-highlight mb-6">
+								<div className="col-4">
 									<div className="p-2 bd-highlight">
 										<label className="python">
 											<strong>
@@ -703,7 +701,7 @@ export class New extends React.Component {
 									alt="..."
 								/>
 							</div>
-							<div className="img">
+							<div className="img pt-4">
 								<img
 									src="https://help.github.com/assets/images/help/profile/contributions_graph.png"
 									className="rounded mx-auto d-block"
@@ -728,7 +726,7 @@ export class New extends React.Component {
 								</div>
 							</div>
 							<div className="row justify-content-around pt-4">
-								<div className="col col-sm-6 pr-4">
+								<div className="col pr-4">
 									<h2 className="pt-2 font-weight-bold">
 										MSC IN COMPUTER SCIENCE
 									</h2>
@@ -769,7 +767,7 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="col col-sm-6 divider pl-4">
+								<div className="col divider pl-4">
 									<h2 className="pt-2 font-weight-bold">
 										BSC IN APPLIED MATHEMATICS
 									</h2>
