@@ -91,11 +91,6 @@ export class New extends React.Component {
 								</a>
 							</li>
 							<li className="border-bottom">
-								<a href="#section-7">
-									<i className="fab fa-github fa-3x" />
-								</a>
-							</li>
-							<li className="border-bottom">
 								<a href="#section-8">
 									<i className="fas fa-graduation-cap fa-3x" />
 								</a>
@@ -425,10 +420,10 @@ export class New extends React.Component {
 							</div>
 							<div className="row pt-4">
 								<div className="col col-sm-4">
-									<div className="img">
+									<div className="col img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="card-img-top logo"
+											className="card-img-top"
 											alt="..."
 										/>
 									</div>
@@ -450,10 +445,10 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="col col-sm-4 divider">
-									<div className="img">
+									<div className="col img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="card-img-top logo"
+											className="card-img-top"
 											alt="..."
 										/>
 									</div>
@@ -475,10 +470,10 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="col col-sm-4 divider">
-									<div className="img">
+									<div className="col img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="card-img-top logo"
+											className="card-img-top"
 											alt="..."
 										/>
 									</div>
@@ -503,10 +498,10 @@ export class New extends React.Component {
 							<hr className="border-bottom bg-info pt-1" />
 							<div className="row">
 								<div className="col col-sm-4">
-									<div className="img">
+									<div className="col img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="card-img-top logo"
+											className="card-img-top"
 											alt="..."
 										/>
 									</div>
@@ -528,10 +523,10 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="col col-sm-4 divider">
-									<div className="img">
+									<div className="col img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="card-img-top logo"
+											className="card-img-top"
 											alt="..."
 										/>
 									</div>
@@ -680,37 +675,6 @@ export class New extends React.Component {
 						</div>
 					</section>
 					<hr className="border-bottom" />
-					<section id="section-7">
-						<div className="github pt-4">
-							<div className="d-flex flex-row bd-highlight mb-3">
-								<div className="p-2 bd-highlight">
-									<i className="fab fa-github text-warning fa-3x icon" />
-								</div>
-								<div
-									className="p-2 bd-highlight"
-									id="section-7">
-									<label className="font-italic font-weight-light text-dark title">
-										&nbsp;G&nbsp;i&nbsp;t&nbsp;h&nbsp;u&nbsp;b
-									</label>
-								</div>
-							</div>
-							<div className="img">
-								<img
-									src="https://media.npr.org/assets/img/2012/09/18/breakdown3-06-17-11-01_custom-a75c8687649851cb34253472a5005ecb6a99a436-s800-c85.jpg"
-									className="rounded mx-auto d-block"
-									alt="..."
-								/>
-							</div>
-							<div className="img pt-4">
-								<img
-									src="https://help.github.com/assets/images/help/profile/contributions_graph.png"
-									className="rounded mx-auto d-block"
-									alt="..."
-								/>
-							</div>
-						</div>
-					</section>
-					<hr className="border-bottom" />
 					<section id="section-8">
 						<div className="Education pt-4">
 							<div className="d-flex flex-row bd-highlight mb-3">
@@ -725,7 +689,7 @@ export class New extends React.Component {
 									</label>
 								</div>
 							</div>
-							<div className="row justify-content-around pt-4">
+							<div className="row pt-4">
 								<div className="col pr-4">
 									<h2 className="pt-2 font-weight-bold">
 										MSC IN COMPUTER SCIENCE
