@@ -51,7 +51,7 @@ export class New extends React.Component {
 				<div className="row">
 					<div className="col">
 						<div className="parallax" id="section-top">
-							<nav className="list-group text-center">
+							<nav className="list-group text-center vertical-menu">
 								<ul className="rounded">
 									<li className="border-bottom">
 										<a
@@ -163,28 +163,35 @@ export class New extends React.Component {
 								</label>
 							</div>
 						</div>
-						<p className="p text-justify text-muted">
-							Mision-driven full stack developer with a passion
-							for thoughtful UI design, collaboration, and
-							teaching.
-						</p>
-						<p className="p text-justify text-muted">
-							I have always sought out opportunities and
-							challenges that are meaningful to me. Although my
-							professional path has taken many twists and
-							turns-from touring and recording artist, to employee
-							of the years at a non-profit, to dean is scholar at
-							UPenn, to small business owner and entrepeneur - I
-							have never stopped engaging my passion to help
-							others and solve problems.
-						</p>
-						<p className="p text-justify text-muted">
-							As a web developer, I enjoy using my obsessive
-							attention to detail, my unequivocal love for making
-							things, and my mission-driven work ethic to
-							literally change the world. That is why I am excited
-							to make a big impact at a high growth company
-						</p>
+						<div className="row">
+							<div className="col-12">
+								<p className="p text-justify text-muted">
+									Mision-driven full stack developer with a
+									passion for thoughtful UI design,
+									collaboration, and teaching.
+								</p>
+								<p className="p text-justify text-muted">
+									I have always sought out opportunities and
+									challenges that are meaningful to me.
+									Although my professional path has taken many
+									twists and turns-from touring and recording
+									artist, to employee of the years at a
+									non-profit, to dean is scholar at UPenn, to
+									small business owner and entrepeneur - I
+									have never stopped engaging my passion to
+									help others and solve problems.
+								</p>
+								<p className="p text-justify text-muted">
+									As a web developer, I enjoy using my
+									obsessive attention to detail, my
+									unequivocal love for making things, and my
+									mission-driven work ethic to literally
+									change the world. That is why I am excited
+									to make a big impact at a high growth
+									company
+								</p>
+							</div>
+						</div>
 					</section>
 					<hr className="border-bottom" />
 					<section id="section-2">
@@ -248,7 +255,7 @@ export class New extends React.Component {
 								</label>
 							</div>
 						</div>
-						<div className="row">
+						<div className="row text-center">
 							<div className="col-12 col-md-4 p text-muted">
 								<h4>Climbing</h4>
 							</div>
@@ -271,7 +278,7 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12 col-sm-8 float-left pt-4">
+							<div className="col-12 col-sm-9 float-left pt-4">
 								<h2 className="pt-2 font-weight-bold">
 									LEAD DEVELOPER
 								</h2>
@@ -280,16 +287,16 @@ export class New extends React.Component {
 									Startup Hubs, San Francisco
 								</h2>
 							</div>
-							<div className="col-12 col-sm-4 divider">
+							<div className="col-12 col-sm-3 divider">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-									className="mx-auto float-right logo"
+									className="mx-auto logo"
 									alt="..."
 								/>
 							</div>
 							<div className="row">
 								<div className="col">
-									<p className="p text-muted pt-4">
+									<p className="p text-justify text-muted pt-4">
 										Describe your role here lorem ipsum
 										dolor sit amet, consetetuer adipiscing
 										elit. Aenean commodo ligula eget dolor.
@@ -323,7 +330,7 @@ export class New extends React.Component {
 						</div>
 						<hr className="border-bottom bg-info pt-1" />
 						<div className="row">
-							<div className="col-12 col-sm-8 float-left pt-4">
+							<div className="col-12 col-sm-9 float-left pt-4">
 								<h2 className="pt-2 font-weight-bold">
 									SENIOR SOFTWARE ENGINEER
 								</h2>
@@ -332,7 +339,7 @@ export class New extends React.Component {
 									Google, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-4 divider">
+							<div className="col-12 col-sm-3 divider">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -370,7 +377,7 @@ export class New extends React.Component {
 						</div>
 						<hr className="border-bottom bg-info pt-1" />
 						<div className="row">
-							<div className="col-12 col-sm-8 float-left pt-4">
+							<div className="col-12 col-sm-9 float-left pt-4">
 								<h2 className="pt-2 font-weight-bold">
 									UI DEVELOPER
 								</h2>
@@ -379,7 +386,7 @@ export class New extends React.Component {
 									Amazon, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-4 divider">
+							<div className="col-12 col-sm-3 divider">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -425,13 +432,17 @@ export class New extends React.Component {
 							</div>
 						</div>
 
-						<div className="row justify-content-around pt-4">
+						<div className="row pt-4">
 							<div className="col-12 col-md-4">
-								<img
-									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-									className="card-img-top"
-									alt="..."
-								/>
+								<div className="row">
+									<div className="col-12 col-sm-6">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top"
+											alt="..."
+										/>
+									</div>
+								</div>
 								<div className="card-body">
 									<h5 className="card-title">
 										<strong>VELOCITY</strong>
@@ -449,12 +460,14 @@ export class New extends React.Component {
 								</div>
 							</div>
 							<div className="col-12 col-md-4 divider">
-								<div className="img">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
-										alt="..."
-									/>
+								<div className="row">
+									<div className="col-12 col-sm-6">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top"
+											alt="..."
+										/>
+									</div>
 								</div>
 								<div className="card-body">
 									<h5 className="card-title">
@@ -473,12 +486,14 @@ export class New extends React.Component {
 								</div>
 							</div>
 							<div className="col-12 col-md-4 divider">
-								<div className="img">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
-										alt="..."
-									/>
+								<div className="row">
+									<div className="col-12 col-sm-6">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top"
+											alt="..."
+										/>
+									</div>
 								</div>
 								<div className="card-body">
 									<h5 className="card-title">
@@ -500,12 +515,14 @@ export class New extends React.Component {
 						<hr className="border-bottom bg-info pt-1" />
 						<div className="row">
 							<div className="col-12 col-md-4">
-								<div className="img">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
-										alt="..."
-									/>
+								<div className="row">
+									<div className="col-12 col-sm-6">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top"
+											alt="..."
+										/>
+									</div>
 								</div>
 								<div className="card-body">
 									<h5 className="card-title">
@@ -523,13 +540,15 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 divider">
-								<div className="img">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="card-img-top"
-										alt="..."
-									/>
+							<div className="col-12 col-md-4 divider divider-right">
+								<div className="row">
+									<div className="col-12 col-sm-6">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="card-img-top"
+											alt="..."
+										/>
+									</div>
 								</div>
 								<div className="card-body">
 									<h5 className="card-title">
@@ -674,82 +693,114 @@ export class New extends React.Component {
 						</div>
 						<div className="row pt-4">
 							<div className="col-12 col-md-6 pr-4">
-								<h2 className="pt-2 font-weight-bold">
-									MSC IN COMPUTER SCIENCE
-								</h2>
-								<h3 className="text-muted">
-									University of London
-								</h3>
-								<div className="img">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="mx-auto b-block img-edu"
-										alt="..."
-									/>
-								</div>
-								<i className="far fa-clock fa-2x text-primary">
-									<span className="font-weight-bold text-muted pl-2">
-										2011-2012
-									</span>
-								</i>
-								<div>
-									<p className="p pt-4 text-justify text-muted">
-										Describe your role here lorem ipsum
-										dolor sit amet, consetetuer adipiscing
-										elit. Aenean commodo ligula eget dolor.
-										Aenean massa. Cum soccis natoque
-										penatibus el magnis dis paturrient
-										montes, nascetur ridiculus mus. Donec
-										quam felis, ultricies nec, pellentesque
-										eu, pretium quis sem.
-									</p>
-								</div>
-								<div className="d-flex flex-column bd-highlight mb-3 pt-4">
-									<div className="p-0 p bd-highlight text-muted">
-										-Bullet point
+								<div className="row">
+									<div className="col-12">
+										<h2 className="pt-2 font-weight-bold">
+											MSC IN COMPUTER SCIENCE
+										</h2>
+										<h3 className="text-muted">
+											University of London
+										</h3>
 									</div>
-									<div className="p-0 p bd-highlight text-muted">
-										-Bullet point
+								</div>
+								<div className="row">
+									<div className="col-12 img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="mx-auto b-block img-edu"
+											alt="..."
+										/>
+									</div>
+									<div className="col-12">
+										<i className="far fa-clock fa-2x text-primary">
+											<span className="font-weight-bold text-muted pl-2">
+												2011-2012
+											</span>
+										</i>
+									</div>
+								</div>
+
+								<div className="row">
+									<div className="col-12">
+										<p className="p pt-4 text-justify text-muted">
+											Describe your role here lorem ipsum
+											dolor sit amet, consetetuer
+											adipiscing elit. Aenean commodo
+											ligula eget dolor. Aenean massa. Cum
+											soccis natoque penatibus el magnis
+											dis paturrient montes, nascetur
+											ridiculus mus. Donec quam felis,
+											ultricies nec, pellentesque eu,
+											pretium quis sem.
+										</p>
+									</div>
+								</div>
+								<div className="row">
+									<div className="col-12">
+										<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+											<div className="p-0 p bd-highlight text-muted">
+												-Bullet point
+											</div>
+											<div className="p-0 p bd-highlight text-muted">
+												-Bullet point
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-12 col-md-6 divider pl-4">
-								<h2 className="pt-2 font-weight-bold">
-									BSC IN APPLIED MATHEMATICS
-								</h2>
-								<h3 className="text-muted">
-									Bristol University
-								</h3>
-								<div clasname="">
-									<img
-										src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-										className="mx-auto b-block img-edu"
-										alt="..."
-									/>
-								</div>
-								<i className="far fa-clock fa-2x text-primary">
-									<span className="font-weight-bold text-muted pl-2">
-										2011-2012
-									</span>
-								</i>
-								<div>
-									<p className="p pt-4 text-justify text-muted">
-										Describe your role here lorem ipsum
-										dolor sit amet, consetetuer adipiscing
-										elit. Aenean commodo ligula eget dolor.
-										Aenean massa. Cum soccis natoque
-										penatibus el magnis dis paturrient
-										montes, nascetur ridiculus mus. Donec
-										quam felis, ultricies nec, pellentesque
-										eu, pretium quis sem.
-									</p>
-								</div>
-								<div className="d-flex flex-column bd-highlight mb-3 pt-4">
-									<div className="p-0 p bd-highlight text-muted">
-										-Bullet point
+							<div className="col-12 col-md-6 divider px-4">
+								<div className="row">
+									<div className="col-12">
+										<h2 className="pt-2 font-weight-bold">
+											BSC IN APPLIED MATHEMATICS
+										</h2>
+										<h3 className="text-muted">
+											Bristol Universit
+										</h3>
 									</div>
-									<div className="p-0 p bd-highlight text-muted">
-										-Bullet point
+								</div>
+								<div className="row">
+									<div className="col-12 img">
+										<img
+											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+											className="mx-auto b-block img-edu"
+											alt="..."
+										/>
+									</div>
+									<div className="col-12">
+										<i className="far fa-clock fa-2x text-primary">
+											<span className="font-weight-bold text-muted pl-2">
+												2007-2011
+											</span>
+										</i>
+									</div>
+								</div>
+
+								<div className="row">
+									<div className="col-12">
+										<p className="p pt-4 text-justify text-muted">
+											Describe your role here lorem ipsum
+											dolor sit amet, consetetuer
+											adipiscing elit. Aenean commodo
+											ligula eget dolor. Aenean massa. Cum
+											soccis natoque penatibus el magnis
+											dis paturrient montes, nascetur
+											ridiculus mus. Donec quam felis,
+											ultricies nec, pellentesque eu,
+											pretium quis sem.
+										</p>
+									</div>
+								</div>
+								<div className="row">
+									<div className="col-12">
+										<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+											<div className="p-0 p bd-highlight text-muted">
+												-Bullet point
+											</div>
+											<div className="p-0 p bd-highlight text-muted">
+												-Bullet point
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -758,7 +809,7 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-9">
 						<div className="row mb-3">
-							<div className="col">
+							<div className="col-12">
 								<i className="fas fa-user-alt text-warning fa-3x icon" />
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
@@ -766,52 +817,52 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col">
+							<div className="col-12">
 								<div className="table-responsive mb-3 pt-4 info">
-									<table className="table">
-										<tr>
-											<i className="fas fa-envelope fa-2x" />
-											<label className="text-muted pl-4 cont">
+									<ul className="list-group">
+										<li className="list-group-item border-0">
+											<i className="fas fa-envelope fa-2x p-2" />
+											<label className="font-weight-normal text-muted p-2">
 												jason@jasonstatham.com
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fas fa-phone fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4">
 												Phone: 234 2342 342
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fas fa-globe fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4">
 												jasonstatham.com
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fab fa-linkedin fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4 pt-0">
 												linkein.com/in/jasonstatham
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fab fa-github fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4">
 												github.com/jasonstatham
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fab fa-twitter fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4">
 												twitter.com/jasonstatham
 											</label>
-										</tr>
-										<tr>
+										</li>
+										<li className="list-group-item border-0">
 											<i className="fab fa-stack-overflow fa-2x" />
-											<label className="text-muted pl-4 cont">
+											<label className="text-muted pl-4">
 												123456 / alandoe
 											</label>
-										</tr>
-									</table>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
