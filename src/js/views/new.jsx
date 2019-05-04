@@ -49,7 +49,7 @@ export class New extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col">
+					<div className="col-12">
 						<div className="parallax" id="section-top">
 							<nav className="list-group text-center vertical-menu">
 								<ul className="rounded">
@@ -117,16 +117,20 @@ export class New extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="d-flex flex-column text-center gradient">
-					<div className="bd-highlight pt-4">
-						<h1 className="display-4">
-							JASON <strong>STATHAM</strong>
-						</h1>
-					</div>
-					<div className="bd-highlight font-weight-light">
-						<h3 className="font-weight-light">
-							Full-Stack Developer
-						</h3>
+				<div className="row">
+					<div className="col-12">
+						<div className="d-flex flex-column text-center gradient">
+							<div className="bd-highlight pt-4">
+								<h1 className="display-4">
+									JASON <strong>STATHAM</strong>
+								</h1>
+							</div>
+							<div className="bd-highlight font-weight-light">
+								<h3 className="font-weight-light">
+									Full-Stack Developer
+								</h3>
+							</div>
+						</div>
 					</div>
 				</div>
 				<hr className="line" />
@@ -273,7 +277,7 @@ export class New extends React.Component {
 							<div className="col">
 								<i className="fas fa-chart-line text-warning fa-3x icon" />
 								<label className="font-italic font-weight-light text-dark title">
-									&nbsp;E&nbsp;x&nbsp;&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
+									&nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
 								</label>
 							</div>
 						</div>
@@ -684,15 +688,15 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-8">
 						<div className="row mb-3">
-							<div className="col">
+							<div className="col-12">
 								<i className="fas fa-graduation-cap text-warning fa-3x icon" />
-								<label className="font-italic font-weight-light text-dark title">
+								<span className="font-italic font-weight-light text-dark title">
 									&nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
-								</label>
+								</span>
 							</div>
 						</div>
 						<div className="row pt-4">
-							<div className="col-12 col-md-6 pr-4">
+							<div className="col-12 col-sm-6 px-4">
 								<div className="row">
 									<div className="col-12">
 										<h2 className="pt-2 font-weight-bold">
@@ -704,22 +708,19 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="row">
-									<div className="col-12 col-md-6 img">
+									<div className="col-12 col-sm-6 img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 											className="mx-auto b-block img-edu"
 											alt="..."
 										/>
-									</div>
-									<div className="col-12">
-										<i className="far fa-clock fa-2x text-primary">
+										<i className="far fa-clock fa-2x text-primary pt-2">
 											<span className="font-weight-bold text-muted pl-2">
 												2011-2012
 											</span>
 										</i>
 									</div>
 								</div>
-
 								<div className="row">
 									<div className="col-12">
 										<p className="p pt-4 text-justify text-muted">
@@ -748,7 +749,7 @@ export class New extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-12 col-md-6 divider px-4">
+							<div className="col-12 col-sm-6 divider px-4">
 								<div className="row">
 									<div className="col-12">
 										<h2 className="pt-2 font-weight-bold">
@@ -760,22 +761,19 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="row">
-									<div className="col-12 col-md-6 img">
+									<div className="col-12 col-sm-6 img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 											className="mx-auto b-block img-edu"
 											alt="..."
 										/>
-									</div>
-									<div className="col-12">
-										<i className="far fa-clock fa-2x text-primary">
+										<i className="far fa-clock fa-2x text-primary pt-2">
 											<span className="font-weight-bold text-muted pl-2">
 												2007-2011
 											</span>
 										</i>
 									</div>
 								</div>
-
 								<div className="row">
 									<div className="col-12">
 										<p className="p pt-4 text-justify text-muted">
@@ -817,7 +815,7 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12 col-md-6">
+							<div className="col-12 col-sm-6">
 								<ul className="list-group mb-3 pt-4 info">
 									<li className="list-group-item border-0">
 										<i className="fas fa-envelope fa-2x p-2" />
