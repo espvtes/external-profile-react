@@ -49,7 +49,7 @@ export class New extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-12">
+					<div className="col-12 pr-0">
 						<div className="parallax" id="section-top">
 							<nav className="list-group text-center vertical-menu">
 								<ul className="rounded">
@@ -106,10 +106,10 @@ export class New extends React.Component {
 									</li>
 								</ul>
 							</nav>
-							<div className="img float-right">
+							<div className="geeks-img">
 								<img
 									src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-									className="rounded geeks-img pt-4 pr-4"
+									className="rounded pt-4 pr-4"
 									width="100"
 									alt="..."
 								/>
@@ -594,7 +594,7 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row  justify-content-around py-4">
-							<div className="col-12 col-md-4">
+							<div className="col-12 col-md-6 border-right">
 								<div className="p-2">
 									<label className="python font-weight-bold">
 										Python &amp; Django
@@ -644,7 +644,7 @@ export class New extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-12 col-md-4">
+							<div className="col-12 col-md-6">
 								<div className="p-2">
 									<label className="python">
 										<strong>Javascript &amp;jQuery</strong>
@@ -708,8 +708,8 @@ export class New extends React.Component {
 								</span>
 							</div>
 						</div>
-						<div className="row">
-							<div className="col-12 col-md-6">
+						<div className="row pt-4">
+							<div className="col-12 col-md-6 px-4">
 								<h2 className="pt-2 font-weight-bold">
 									MSC IN COMPUTER SCIENCE
 								</h2>
@@ -725,11 +725,16 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<i className="far fa-clock fa-2x text-primary pt-2">
-									<span className="font-weight-bold text-muted pl-2">
-										2007-2011
-									</span>
-								</i>
+								<div className="row">
+									<div className="col-md-1">
+										<i className="far fa-clock fa-2x text-primary pt-2" />
+									</div>
+									<div className="col-md-11">
+										<span className="font-weight-bold text-muted pl-2 years">
+											2007-2011
+										</span>
+									</div>
+								</div>
 								<p className="p pt-4 text-justify text-muted">
 									Describe your role here lorem ipsum dolor
 									sit amet, consetetuer adipiscing elit.
@@ -747,7 +752,7 @@ export class New extends React.Component {
 									-Bullet point
 								</span>
 							</div>
-							<div className="col-12 col-md-6 border-left">
+							<div className="col-12 col-md-6 px-4 border-left">
 								<h2 className="pt-2 font-weight-bold">
 									BSC IN APPLIED MATHEMATICS
 								</h2>
@@ -763,11 +768,16 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<i className="far fa-clock fa-2x text-primary pt-2">
-									<span className="font-weight-bold text-muted pl-2">
-										2007-2011
-									</span>
-								</i>
+								<div className="row">
+									<div className="col-md-1">
+										<i className="far fa-clock fa-2x text-primary pt-2" />
+									</div>
+									<div className="col-md-11">
+										<span className="font-weight-bold text-muted pl-2 years">
+											2007-2011
+										</span>
+									</div>
+								</div>
 								<p className="p pt-4 text-justify text-muted">
 									Describe your role here lorem ipsum dolor
 									sit amet, consetetuer adipiscing elit.

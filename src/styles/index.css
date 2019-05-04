@@ -12,7 +12,10 @@
     background-attachment: fixed;
     
 }
-
+/*.img{*/
+/*    position: fixed;*/
+/*    float: right;*/
+/*}*/
 .vertical-menu{
     display: flex;
     -ms-flex-direction: column;
@@ -106,7 +109,7 @@ html {
 }
 
 .years{
-    font-size: 32px;
+    font-size: 30px;
     
 }
 .divider{
@@ -242,4 +245,11 @@ and (min-width : 1224px) {
 .vl{
     border-left: 4px solid grey;
   /*height: 350px;*/
+}
+
+.geeks-img{
+        position: fixed;
+    right: 5px;
+    top: 2px;
+    z-index: 20;
 }
