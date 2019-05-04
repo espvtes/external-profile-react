@@ -443,7 +443,7 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<div className="card-body">
+								<div className="card-body pl-2">
 									<h5 className="card-title">
 										<strong>VELOCITY</strong>
 									</h5>
@@ -469,7 +469,7 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<div className="card-body">
+								<div className="card-body pl-2">
 									<h5 className="card-title">
 										<strong>DEVSTUDIO</strong>
 									</h5>
@@ -495,7 +495,7 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<div className="card-body">
+								<div className="card-body pl-2">
 									<h5 className="card-title">
 										<strong>TEMP0</strong>
 									</h5>
@@ -524,7 +524,7 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<div className="card-body">
+								<div className="card-body pl-2">
 									<h5 className="card-title">
 										<strong>ATOM</strong>
 									</h5>
@@ -550,7 +550,7 @@ export class New extends React.Component {
 										/>
 									</div>
 								</div>
-								<div className="card-body">
+								<div className="card-body pl-2">
 									<h5 className="card-title">
 										<strong>DELTA</strong>
 									</h5>
@@ -579,10 +579,10 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row  justify-content-around py-4">
-							<div className="col-12 col-sm-4">
-								<div className="p-2 bd-highlight">
-									<label className="python">
-										<strong>Python &amp; Django</strong>
+							<div className="col-12 col-md-4">
+								<div className="p-2">
+									<label className="python font-weight-bold">
+										Python &amp; Django
 									</label>
 									<div className="progress">
 										<div
@@ -596,9 +596,9 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="p-2 bd-highlight">
-									<label className="python">
-										<strong>Angular</strong>
+								<div className="p-2">
+									<label className="python font-weight-bold">
+										Angular
 									</label>
 									<div className="progress">
 										<div
@@ -612,9 +612,9 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="p-2 bd-highlight">
-									<label className="python">
-										<strong>Rubyon Rails</strong>
+								<div className="p-2">
+									<label className="python font-weight-bold">
+										Rubyon Rails
 									</label>
 									<div className="progress">
 										<div
@@ -629,8 +629,8 @@ export class New extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-12 col-sm-4">
-								<div className="p-2 bd-highlight">
+							<div className="col-12 col-md-4">
+								<div className="p-2">
 									<label className="python">
 										<strong>Javascript &amp;jQuery</strong>
 									</label>
@@ -646,8 +646,8 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="p-2 bd-highlight">
-									<label className="python">
+								<div className="p-2">
+									<label className="python font-weight-bold">
 										<strong>HTML5 &amp; CSS</strong>
 									</label>
 									<div className="progress">
@@ -662,9 +662,9 @@ export class New extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="p-2 bd-highlight">
-									<label className="python">
-										<strong>Sketch &amp; Potophop</strong>
+								<div className="p-2">
+									<label className="python font-weight-bold">
+										Sketch &amp; Potophop
 									</label>
 									<div className="progress">
 										<div
@@ -704,7 +704,7 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="row">
-									<div className="col-12 img">
+									<div className="col-12 col-md-6 img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 											className="mx-auto b-block img-edu"
@@ -760,7 +760,7 @@ export class New extends React.Component {
 									</div>
 								</div>
 								<div className="row">
-									<div className="col-12 img">
+									<div className="col-12 col-md-6 img">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 											className="mx-auto b-block img-edu"
@@ -817,53 +817,51 @@ export class New extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12">
-								<div className="table-responsive mb-3 pt-4 info">
-									<ul className="list-group">
-										<li className="list-group-item border-0">
-											<i className="fas fa-envelope fa-2x p-2" />
-											<label className="font-weight-normal text-muted p-2">
-												jason@jasonstatham.com
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fas fa-phone fa-2x" />
-											<label className="text-muted pl-4">
-												Phone: 234 2342 342
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fas fa-globe fa-2x" />
-											<label className="text-muted pl-4">
-												jasonstatham.com
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fab fa-linkedin fa-2x" />
-											<label className="text-muted pl-4 pt-0">
-												linkein.com/in/jasonstatham
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fab fa-github fa-2x" />
-											<label className="text-muted pl-4">
-												github.com/jasonstatham
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fab fa-twitter fa-2x" />
-											<label className="text-muted pl-4">
-												twitter.com/jasonstatham
-											</label>
-										</li>
-										<li className="list-group-item border-0">
-											<i className="fab fa-stack-overflow fa-2x" />
-											<label className="text-muted pl-4">
-												123456 / alandoe
-											</label>
-										</li>
-									</ul>
-								</div>
+							<div className="col-12 col-md-6">
+								<ul className="list-group mb-3 pt-4 info">
+									<li className="list-group-item border-0">
+										<i className="fas fa-envelope fa-2x p-2" />
+										<label className="font-weight-normal text-muted p-2">
+											jason@jasonstatham.com
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fas fa-phone fa-2x" />
+										<label className="text-muted pl-4">
+											Phone: 234 2342 342
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fas fa-globe fa-2x" />
+										<label className="text-muted pl-4">
+											jasonstatham.com
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fab fa-linkedin fa-2x" />
+										<label className="text-muted pl-4 pt-0">
+											linkein.com/in/jasonstatham
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fab fa-github fa-2x" />
+										<label className="text-muted pl-4">
+											github.com/jasonstatham
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fab fa-twitter fa-2x" />
+										<label className="text-muted pl-4">
+											twitter.com/jasonstatham
+										</label>
+									</li>
+									<li className="list-group-item border-0">
+										<i className="fab fa-stack-overflow fa-2x" />
+										<label className="text-muted pl-4">
+											123456 / alandoe
+										</label>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</section>
