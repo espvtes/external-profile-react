@@ -886,6 +886,110 @@ export class Profile extends React.Component {
 						</div>
 					</div>
 				</div>
+				<div className="row pt-4">
+					<div className="col-12 col-sm-6 px-4">
+						<div className="row">
+							<div className="col-12">
+								<h2 className="pt-2 font-weight-bold">
+									MSC IN COMPUTER SCIENCE
+								</h2>
+								<h3 className="text-muted">
+									University of London
+								</h3>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12 col-sm-6 img">
+								<img
+									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+									className="mx-auto b-block img-edu"
+									alt="..."
+								/>
+								<i className="far fa-clock fa-2x text-primary pt-2">
+									<span className="font-weight-bold text-muted pl-2">
+										2011-2012
+									</span>
+								</i>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12">
+								<p className="p pt-4 text-justify text-muted">
+									Describe your role here lorem ipsum dolor
+									sit amet, consetetuer adipiscing elit.
+									Aenean commodo ligula eget dolor. Aenean
+									massa. Cum soccis natoque penatibus el
+									magnis dis paturrient montes, nascetur
+									ridiculus mus. Donec quam felis, ultricies
+									nec, pellentesque eu, pretium quis sem.
+								</p>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12">
+								<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+									<div className="p-0 p bd-highlight text-muted">
+										-Bullet point
+									</div>
+									<div className="p-0 p bd-highlight text-muted">
+										-Bullet point
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="col-12 col-sm-6 divider px-4">
+						<div className="row">
+							<div className="col-12 col-sm-4">
+								<h2 className="pt-2 font-weight-bold">
+									BSC IN APPLIED MATHEMATICS
+								</h2>
+								<h3 className="text-muted">
+									Bristol Universit
+								</h3>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12 col-sm-6 img">
+								<img
+									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+									className="mx-auto b-block img-edu"
+									alt="..."
+								/>
+								<i className="far fa-clock fa-2x text-primary pt-2">
+									<span className="font-weight-bold text-muted pl-2">
+										2007-2011
+									</span>
+								</i>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12">
+								<p className="p pt-4 text-justify text-muted">
+									Describe your role here lorem ipsum dolor
+									sit amet, consetetuer adipiscing elit.
+									Aenean commodo ligula eget dolor. Aenean
+									massa. Cum soccis natoque penatibus el
+									magnis dis paturrient montes, nascetur
+									ridiculus mus. Donec quam felis, ultricies
+									nec, pellentesque eu, pretium quis sem.
+								</p>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-12">
+								<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+									<div className="p-0 p bd-highlight text-muted">
+										-Bullet point
+									</div>
+									<div className="p-0 p bd-highlight text-muted">
+										-Bullet point
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}

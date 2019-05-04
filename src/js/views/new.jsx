@@ -160,8 +160,10 @@ export class New extends React.Component {
 					<br />
 					<section id="section-1">
 						<div className="row mb-3 pt-4">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="fas fa-file-invoice text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
 								</label>
@@ -200,9 +202,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-2">
 						<div className="row mb-3 py-4">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="fas fa-language text-warning fa-3x icon" />
-
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
 								</label>
@@ -252,8 +255,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-3">
 						<div className="row mb-3 py-4">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="fas fa-bicycle text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
 								</label>
@@ -274,8 +279,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-4">
 						<div className="row mb-3">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="fas fa-chart-line text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
 								</label>
@@ -291,7 +298,7 @@ export class New extends React.Component {
 									Startup Hubs, San Francisco
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 divider">
+							<div className="col-12 col-sm-3 border-left">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto logo"
@@ -343,7 +350,7 @@ export class New extends React.Component {
 									Google, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 divider">
+							<div className="col-12 col-sm-3 border-left">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -390,7 +397,7 @@ export class New extends React.Component {
 									Amazon, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 divider">
+							<div className="col-12 col-sm-3 border-left">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -428,8 +435,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-5">
 						<div className="row mb-3">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="far fa-file-code text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
 								</label>
@@ -463,7 +472,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 divider">
+							<div className="col-12 col-md-4 border-left">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -489,7 +498,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 divider">
+							<div className="col-12 col-md-4 border-left">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -544,7 +553,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 divider divider-right">
+							<div className="col-12 col-md-4 border-left border-right">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -575,8 +584,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-6">
 						<div className="row mb-3">
-							<div className="col">
+							<div className="col-md-1">
 								<i className="far fa-star text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
 								</label>
@@ -688,134 +699,108 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-8">
 						<div className="row mb-3">
-							<div className="col-12">
+							<div className="col-md-1">
 								<i className="fas fa-graduation-cap text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<span className="font-italic font-weight-light text-dark title">
 									&nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
 								</span>
 							</div>
 						</div>
-						<div className="row pt-4">
-							<div className="col-12 col-sm-6 px-4">
+						<div className="row">
+							<div className="col-12 col-md-6">
+								<h2 className="pt-2 font-weight-bold">
+									MSC IN COMPUTER SCIENCE
+								</h2>
+								<h3 className="text-muted">
+									University of London
+								</h3>
 								<div className="row">
-									<div className="col-12">
-										<h2 className="pt-2 font-weight-bold">
-											MSC IN COMPUTER SCIENCE
-										</h2>
-										<h3 className="text-muted">
-											University of London
-										</h3>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12 col-sm-6 img">
+									<div className="col-12 col-sm-4">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto b-block img-edu"
+											className="mx-auto"
 											alt="..."
 										/>
-										<i className="far fa-clock fa-2x text-primary pt-2">
-											<span className="font-weight-bold text-muted pl-2">
-												2011-2012
-											</span>
-										</i>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-12">
-										<p className="p pt-4 text-justify text-muted">
-											Describe your role here lorem ipsum
-											dolor sit amet, consetetuer
-											adipiscing elit. Aenean commodo
-											ligula eget dolor. Aenean massa. Cum
-											soccis natoque penatibus el magnis
-											dis paturrient montes, nascetur
-											ridiculus mus. Donec quam felis,
-											ultricies nec, pellentesque eu,
-											pretium quis sem.
-										</p>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12">
-										<div className="d-flex flex-column bd-highlight mb-3 pt-4">
-											<div className="p-0 p bd-highlight text-muted">
-												-Bullet point
-											</div>
-											<div className="p-0 p bd-highlight text-muted">
-												-Bullet point
-											</div>
-										</div>
-									</div>
-								</div>
+								<i className="far fa-clock fa-2x text-primary pt-2">
+									<span className="font-weight-bold text-muted pl-2">
+										2007-2011
+									</span>
+								</i>
+								<p className="p pt-4 text-justify text-muted">
+									Describe your role here lorem ipsum dolor
+									sit amet, consetetuer adipiscing elit.
+									Aenean commodo ligula eget dolor. Aenean
+									massa. Cum soccis natoque penatibus el
+									magnis dis paturrient montes, nascetur
+									ridiculus mus. Donec quam felis, ultricies
+									nec, pellentesque eu, pretium quis sem.
+								</p>
+								<span className="text-muted p">
+									-Bullet point
+								</span>
+								<br />
+								<span className="text-muted p">
+									-Bullet point
+								</span>
 							</div>
-							<div className="col-12 col-sm-6 divider px-4">
+							<div className="col-12 col-md-6 border-left">
+								<h2 className="pt-2 font-weight-bold">
+									BSC IN APPLIED MATHEMATICS
+								</h2>
+								<h3 className="text-muted">
+									Bristol Universit
+								</h3>
 								<div className="row">
-									<div className="col-12">
-										<h2 className="pt-2 font-weight-bold">
-											BSC IN APPLIED MATHEMATICS
-										</h2>
-										<h3 className="text-muted">
-											Bristol Universit
-										</h3>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12 col-sm-6 img">
+									<div className="col-12 col-sm-4">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto b-block img-edu"
+											className="mx-auto"
 											alt="..."
 										/>
-										<i className="far fa-clock fa-2x text-primary pt-2">
-											<span className="font-weight-bold text-muted pl-2">
-												2007-2011
-											</span>
-										</i>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-12">
-										<p className="p pt-4 text-justify text-muted">
-											Describe your role here lorem ipsum
-											dolor sit amet, consetetuer
-											adipiscing elit. Aenean commodo
-											ligula eget dolor. Aenean massa. Cum
-											soccis natoque penatibus el magnis
-											dis paturrient montes, nascetur
-											ridiculus mus. Donec quam felis,
-											ultricies nec, pellentesque eu,
-											pretium quis sem.
-										</p>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12">
-										<div className="d-flex flex-column bd-highlight mb-3 pt-4">
-											<div className="p-0 p bd-highlight text-muted">
-												-Bullet point
-											</div>
-											<div className="p-0 p bd-highlight text-muted">
-												-Bullet point
-											</div>
-										</div>
-									</div>
-								</div>
+								<i className="far fa-clock fa-2x text-primary pt-2">
+									<span className="font-weight-bold text-muted pl-2">
+										2007-2011
+									</span>
+								</i>
+								<p className="p pt-4 text-justify text-muted">
+									Describe your role here lorem ipsum dolor
+									sit amet, consetetuer adipiscing elit.
+									Aenean commodo ligula eget dolor. Aenean
+									massa. Cum soccis natoque penatibus el
+									magnis dis paturrient montes, nascetur
+									ridiculus mus. Donec quam felis, ultricies
+									nec, pellentesque eu, pretium quis sem.
+								</p>
+								<span className="text-muted p">
+									-Bullet point
+								</span>
+								<br />
+								<span className="text-muted p">
+									-Bullet point
+								</span>
 							</div>
 						</div>
 					</section>
 					<hr className="border-bottom" />
 					<section id="section-9">
 						<div className="row mb-3">
-							<div className="col-12">
+							<div className="col-md-1">
 								<i className="fas fa-user-alt text-warning fa-3x icon" />
+							</div>
+							<div className="col-md-11">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
 								</label>
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12 col-sm-6">
+							<div className="col-12">
 								<ul className="list-group mb-3 pt-4 info">
 									<li className="list-group-item border-0">
 										<i className="fas fa-envelope fa-2x p-2" />

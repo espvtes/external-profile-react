@@ -60,7 +60,7 @@
 }
 
 .info{
-    padding-left: 80px;
+    padding-left: 40px;
     font-size: 20px;
 }
 
@@ -105,11 +105,16 @@ html {
   scroll-behavior: smooth;
 }
 
+.years{
+    font-size: 32px;
+    
+}
 .divider{
     border-left: 4px solid grey;
     height: 100%;
     padding-top: 4px;
 }
+
 
 .divider-right{
     border-right: 4px solid grey;
@@ -140,7 +145,7 @@ html {
 }
 
 .img-edu{
-    width: 80%;
+    width: 100%;
     /*height: 50%;*/
     line-height: 1.3;
 }
@@ -234,4 +239,7 @@ and (min-width : 1224px) {
 
 }
 
-
+.vl{
+    border-left: 4px solid grey;
+  /*height: 350px;*/
+}
