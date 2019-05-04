@@ -74,7 +74,7 @@
 .corner{
     border-radius: 40px;
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: 47px;
     background-color:black;
     color: white;
@@ -252,4 +252,11 @@ and (min-width : 1224px) {
     right: 5px;
     top: 2px;
     z-index: 20;
+}
+
+.left-border{
+    border-left: 4px solid #bbbcbf;
+}
+.right-border{
+    border-right: 4px solid #bbbcbf;
 }

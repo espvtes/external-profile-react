@@ -30,7 +30,7 @@ export class New extends React.Component {
 		let mainNavLinks = document.querySelectorAll("nav ul li a");
 		let mainSections = document.querySelectorAll("main section");
 
-		window.addEventListener("scroll", event => {
+		window.onscroll = event => {
 			let fromTop = window.scrollY;
 
 			mainNavLinks.forEach(link => {
@@ -45,7 +45,7 @@ export class New extends React.Component {
 					link.classList.remove("current");
 				}
 			});
-		});
+		};
 		return (
 			<div className="container-fluid">
 				<div className="row">
@@ -56,7 +56,7 @@ export class New extends React.Component {
 									<li className="border-bottom">
 										<a
 											href="#section-top"
-											className="menu-img">
+											className="menu-img current">
 											<img
 												src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
 												className="img-menu"
@@ -160,10 +160,10 @@ export class New extends React.Component {
 					<br />
 					<section id="section-1">
 						<div className="row mb-3 pt-4">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-file-invoice text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
 								</label>
@@ -202,10 +202,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-2">
 						<div className="row mb-3 py-4">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-language text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
 								</label>
@@ -255,10 +255,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-3">
 						<div className="row mb-3 py-4">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-bicycle text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
 								</label>
@@ -279,10 +279,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-4">
 						<div className="row mb-3">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-chart-line text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
 								</label>
@@ -298,7 +298,7 @@ export class New extends React.Component {
 									Startup Hubs, San Francisco
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 border-left">
+							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto logo"
@@ -350,7 +350,7 @@ export class New extends React.Component {
 									Google, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 border-left">
+							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -397,7 +397,7 @@ export class New extends React.Component {
 									Amazon, London
 								</h2>
 							</div>
-							<div className="col-12 col-sm-3 border-left">
+							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
 									className="mx-auto float-right logo"
@@ -435,10 +435,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-5">
 						<div className="row mb-3">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="far fa-file-code text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
 								</label>
@@ -472,7 +472,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 border-left">
+							<div className="col-12 col-md-4 left-border">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -498,7 +498,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 border-left">
+							<div className="col-12 col-md-4 left-border">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -553,7 +553,7 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 border-left border-right">
+							<div className="col-12 col-md-4 left-border">
 								<div className="row">
 									<div className="col-12 col-sm-6">
 										<img
@@ -579,22 +579,23 @@ export class New extends React.Component {
 									</p>
 								</div>
 							</div>
+							<div className="col-12 col-md-4 left-border" />
 						</div>
 					</section>
 					<hr className="border-bottom" />
 					<section id="section-6">
 						<div className="row mb-3">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="far fa-star text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
 								</label>
 							</div>
 						</div>
 						<div className="row  justify-content-around py-4">
-							<div className="col-12 col-md-6 border-right">
+							<div className="col-12 col-md-6 px-4">
 								<div className="p-2">
 									<label className="python font-weight-bold">
 										Python &amp; Django
@@ -644,7 +645,7 @@ export class New extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-12 col-md-6">
+							<div className="col-12 col-md-6 left-border px-4">
 								<div className="p-2">
 									<label className="python">
 										<strong>Javascript &amp;jQuery</strong>
@@ -699,10 +700,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-8">
 						<div className="row mb-3">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-graduation-cap text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<span className="font-italic font-weight-light text-dark title">
 									&nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
 								</span>
@@ -752,7 +753,7 @@ export class New extends React.Component {
 									-Bullet point
 								</span>
 							</div>
-							<div className="col-12 col-md-6 px-4 border-left">
+							<div className="col-12 col-md-6 px-4 left-border">
 								<h2 className="pt-2 font-weight-bold">
 									BSC IN APPLIED MATHEMATICS
 								</h2>
@@ -800,10 +801,10 @@ export class New extends React.Component {
 					<hr className="border-bottom" />
 					<section id="section-9">
 						<div className="row mb-3">
-							<div className="col-md-1">
+							<div className="col-md-1 pr-0">
 								<i className="fas fa-user-alt text-warning fa-3x icon" />
 							</div>
-							<div className="col-md-11">
+							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
 									&nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
 								</label>
