@@ -42,7 +42,7 @@ export class New extends React.Component {
 				) {
 					link.classList.add("current");
 				} else {
-					link.classList.remove("current");
+					link.classList.remove("");
 				}
 			});
 		};
@@ -56,7 +56,7 @@ export class New extends React.Component {
 									<li className="border-bottom">
 										<a
 											href="#section-top"
-											className="menu-img current">
+											className="menu-img">
 											<img
 												src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
 												className="img-menu"
