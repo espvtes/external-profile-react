@@ -27,10 +27,13 @@ export class Profile extends React.Component {
 		const skechStyle = {
 			width: "60%"
 		};
+
 		let mainNavLinks = document.querySelectorAll("nav ul li a");
 		let mainSections = document.querySelectorAll("main section");
+
 		let lastId;
 		let cur = [];
+
 		window.onscroll = event => {
 			let fromTop = window.scrollY;
 
