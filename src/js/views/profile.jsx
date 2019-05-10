@@ -31,9 +31,6 @@ export class Profile extends React.Component {
 		let mainNavLinks = document.querySelectorAll("nav ul li a");
 		let mainSections = document.querySelectorAll("main section");
 
-		let lastId;
-		let cur = [];
-
 		window.onscroll = event => {
 			let fromTop = window.scrollY;
 
