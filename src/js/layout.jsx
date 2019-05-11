@@ -5,7 +5,7 @@ import ScrollToTop from "./component/functional/scrollToTop.jsx";
 import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
-import { Profile } from "./views/profile.jsx";
+import { Profile } from "./views/profile.js";
 
 import { External } from "./views/external.jsx";
 import injectContent from "./store/appContext.jsx";

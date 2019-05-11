@@ -4,6 +4,28 @@ import ReactTooltip from "react-tooltip";
 import { findDOMNode } from "react-dom";
 
 export class Profile extends React.Component {
+	componentDidMount() {
+		let mainNavLinks = document.querySelectorAll("nav ul li a");
+		let mainSections = document.querySelectorAll("main section");
+
+		window.onscroll = event => {
+			let fromTop = window.scrollY;
+
+			mainNavLinks.forEach(link => {
+				let section = document.querySelector(link.hash);
+
+				if (
+					section.offsetTop <= fromTop &&
+					section.offsetTop + section.offsetHeight > fromTop
+				) {
+					link.classList.add("current");
+				} else {
+					link.classList.remove("current");
+				}
+			});
+		};
+	}
+
 	render() {
 		const pythonStyle = {
 			width: "98%"
@@ -28,25 +50,6 @@ export class Profile extends React.Component {
 			width: "60%"
 		};
 
-		let mainNavLinks = document.querySelectorAll("nav ul li a");
-		let mainSections = document.querySelectorAll("main section");
-
-		window.onscroll = event => {
-			let fromTop = window.scrollY;
-
-			mainNavLinks.forEach(link => {
-				let section = document.querySelector(link.hash);
-
-				if (
-					section.offsetTop <= fromTop &&
-					section.offsetTop + section.offsetHeight > fromTop
-				) {
-					link.classList.add("current");
-				} else {
-					link.classList.remove("current");
-				}
-			});
-		};
 		return (
 			<div className="container-fluid">
 				<div className="row">
