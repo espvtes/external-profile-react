@@ -114,16 +114,15 @@ export class Profile extends React.Component {
 								</ul>
 							</nav>
 						</div>
-						<div className="geeks-img">
-							<img
-								src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-								className="rounded"
-								width="100"
-								alt="..."
-							/>
-						</div>
 					</div>
+
+					<img
+						src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+						className="geeks-img"
+						alt="..."
+					/>
 				</div>
+
 				<div className="row">
 					<div className="col-12">
 						<div className="d-flex flex-column text-center gradient">
@@ -820,23 +819,13 @@ export class Profile extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12 col-sm-4 pl-4">
-								<p>
+							<div className="col-12 col-sm-3">
+								<div className="d-inline">
 									<i className="fas fa-envelope fa-2x p-2" />
+								</div>
+								<div className="d-inline">
 									&nbsp;jason@jasonstatham.com
-								</p>
-								<p>
-									<i className="fas fa-envelope fa-2x p-2" />
-									&nbsp;jason@jasonstatham.com
-								</p>
-								<p>
-									<i className="fas fa-envelope fa-2x p-2" />
-									&nbsp;jason@jasonstatham.com
-								</p>
-								<p>
-									<i className="fas fa-envelope fa-2x p-2" />
-									&nbsp;jason@jasonstatham.com
-								</p>
+								</div>
 							</div>
 						</div>
 					</section>
