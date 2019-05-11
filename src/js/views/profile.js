@@ -27,6 +27,9 @@ export class Profile extends React.Component {
 	}
 
 	render() {
+		const eduStyle = {
+			width: "100%"
+		};
 		const pythonStyle = {
 			width: "98%"
 		};
@@ -110,14 +113,14 @@ export class Profile extends React.Component {
 									</li>
 								</ul>
 							</nav>
-							<div className="geeks-img">
-								<img
-									src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-									className="rounded pt-4 pr-4"
-									width="100"
-									alt="..."
-								/>
-							</div>
+						</div>
+						<div className="geeks-img">
+							<img
+								src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+								className="rounded"
+								width="100"
+								alt="..."
+							/>
 						</div>
 					</div>
 				</div>
@@ -722,10 +725,11 @@ export class Profile extends React.Component {
 									University of London
 								</h3>
 								<div className="row">
-									<div className="col-12 col-sm-4">
+									<div className="col-12 col-sm-5">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto"
+											className="image-educcation"
+											style={eduStyle}
 											alt="..."
 										/>
 									</div>
@@ -765,10 +769,11 @@ export class Profile extends React.Component {
 									Bristol Universit
 								</h3>
 								<div className="row">
-									<div className="col-12 col-sm-4">
+									<div className="col-12 col-sm-5">
 										<img
 											src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-											className="mx-auto"
+											className="image-education"
+											style={eduStyle}
 											alt="..."
 										/>
 									</div>
@@ -815,51 +820,23 @@ export class Profile extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12">
-								<ul className="list-group mb-3 pt-4 info">
-									<li className="list-group-item border-0">
-										<i className="fas fa-envelope fa-2x p-2" />
-										<label className="font-weight-normal text-muted p-2">
-											jason@jasonstatham.com
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fas fa-phone fa-2x" />
-										<label className="text-muted pl-4">
-											Phone: 234 2342 342
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fas fa-globe fa-2x" />
-										<label className="text-muted pl-4">
-											jasonstatham.com
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fab fa-linkedin fa-2x" />
-										<label className="text-muted pl-4 pt-0">
-											linkein.com/in/jasonstatham
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fab fa-github fa-2x" />
-										<label className="text-muted pl-4">
-											github.com/jasonstatham
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fab fa-twitter fa-2x" />
-										<label className="text-muted pl-4">
-											twitter.com/jasonstatham
-										</label>
-									</li>
-									<li className="list-group-item border-0">
-										<i className="fab fa-stack-overflow fa-2x" />
-										<label className="text-muted pl-4">
-											123456 / alandoe
-										</label>
-									</li>
-								</ul>
+							<div className="col-12 col-sm-4 pl-4">
+								<p>
+									<i className="fas fa-envelope fa-2x p-2" />
+									&nbsp;jason@jasonstatham.com
+								</p>
+								<p>
+									<i className="fas fa-envelope fa-2x p-2" />
+									&nbsp;jason@jasonstatham.com
+								</p>
+								<p>
+									<i className="fas fa-envelope fa-2x p-2" />
+									&nbsp;jason@jasonstatham.com
+								</p>
+								<p>
+									<i className="fas fa-envelope fa-2x p-2" />
+									&nbsp;jason@jasonstatham.com
+								</p>
 							</div>
 						</div>
 					</section>
