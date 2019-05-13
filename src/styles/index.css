@@ -207,18 +207,13 @@ footer {
     .fa-3x{
         font-size: 2em;
     }
-
-    .geeks-img{
-    position: sticky;
-    right: 30px;
-    top: 5px;
-    height: 58px;
+    .geeks-img {
+    position: fixed;
+    right: 20px;
+    top: 2px;
+    height: 60px;
     z-index: 20;
 }
-/* section {
-  padding: 2rem;
-  margin: 0 0 2rem 0;
-} */
 font-weight-light {
     font-weight: 300 !important;
 }
@@ -229,13 +224,28 @@ font-weight-light {
 
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
-/* Styles */ }
+/* Styles */
+  .geeks-img {
+    position: fixed;
+    right: 20px;
+    top: 2px;
+    height: 75px;
+    z-index: 20;
+}
+}
 
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-width : 1025px) {
 
 /* Styles */
+ .geeks-img {
+    position: fixed;
+    right: 20px;
+    top: 2px;
+    height: 90px;
+    z-index: 20;
+}
 
 }
 
@@ -244,13 +254,6 @@ font-weight-light {
   /*height: 350px;*/
 }
 
-  .geeks-img{
-        position: fixed;
-    right: 30px;
-    top: 5px;
-    height: 87px;
-    z-index: 20;
-}
 
 .left-border{
     border-left: 4px solid #bbbcbf;
@@ -259,14 +262,26 @@ font-weight-light {
     border-right: 4px solid #bbbcbf;
 }
 
-/* .yellew{
-    background-color: yellow;
-} */
 
 
 
 .text-icon{
 
- padding-top: 20px;
+ padding-top: 10px;
+}
+
+
+.sample {
+    border: 1px solid red;
+    line-height: 40px;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.sample1 {
+    margin-left: 10px;
+    font-size: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
 

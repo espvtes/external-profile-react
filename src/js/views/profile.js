@@ -52,75 +52,94 @@ export class Profile extends React.Component {
 		const skechStyle = {
 			width: "60%"
 		};
-
+		{
+			/*<div className="row d-flex justify-content-end">
+								<div className="col-12 text-right">
+									<img
+										src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+										className=" ml-auto"
+										alt="..."
+									/>
+								</div>
+							</div>*/
+		}
 		return (
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-12 pr-0">
 						<div className="parallax" id="section-top">
-							<nav className="list-group text-center vertical-menu">
-								<ul className="rounded">
-									<li className="border-bottom">
-										<a
-											href="#section-top"
-											className="menu-img">
+							<div className="row">
+								<div className="col-2">
+									<nav className="list-group text-center vertical-menu">
+										<ul className="rounded">
+											<li className="border-bottom">
+												<a
+													href="#section-top"
+													className="menu-img">
+													<img
+														src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
+														className="img-menu"
+														alt="Avatar"
+													/>
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-1">
+													<i className="fas fa-file-invoice fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-2">
+													<i className="fas fa-language fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-3">
+													<i className="fas fa-bicycle fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-4">
+													<i className="fas fa-chart-line fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-5">
+													<i className="far fa-file-code fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-6">
+													<i className="far fa-star fa-3x" />
+												</a>
+											</li>
+											<li className="border-bottom">
+												<a href="#section-8">
+													<i className="fas fa-graduation-cap fa-3x" />
+												</a>
+											</li>
+											<li>
+												<a href="#section-9">
+													<i className="fas fa-user-alt fa-3x" />
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div className="col-10">
+									<div className="row d-flex justify-content-end">
+										<div className="col text-right col-img">
 											<img
-												src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
-												className="img-menu"
-												alt="Avatar"
+												src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
+												className="geeks-img"
+												alt="..."
 											/>
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-1">
-											<i className="fas fa-file-invoice fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-2">
-											<i className="fas fa-language fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-3">
-											<i className="fas fa-bicycle fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-4">
-											<i className="fas fa-chart-line fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-5">
-											<i className="far fa-file-code fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-6">
-											<i className="far fa-star fa-3x" />
-										</a>
-									</li>
-									<li className="border-bottom">
-										<a href="#section-8">
-											<i className="fas fa-graduation-cap fa-3x" />
-										</a>
-									</li>
-									<li>
-										<a href="#section-9">
-											<i className="fas fa-user-alt fa-3x" />
-										</a>
-									</li>
-								</ul>
-							</nav>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-
-					<img
-						src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-						className="geeks-img"
-						alt="..."
-					/>
 				</div>
 
 				<div className="row">
@@ -819,12 +838,76 @@ export class Profile extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12 col-sm-3">
-								<div className="d-inline">
-									<i className="fas fa-envelope fa-2x p-2" />
+							<div className="col-12">
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fas fa-envelope fa-2x p-2" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											jason@jasonstatham.com
+										</label>
+									</div>
 								</div>
-								<div className="d-inline">
-									&nbsp;jason@jasonstatham.com
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fas fa-phone fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											Phone: 234 2342 342
+										</label>
+									</div>
+								</div>
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fas fa-globe fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											jasonstatham.com
+										</label>
+									</div>
+								</div>
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fab fa-linkedin fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											linkein.com/in/jasonstatham
+										</label>
+									</div>
+								</div>
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fab fa-github fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											github.com/jasonstatham
+										</label>
+									</div>
+								</div>
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fab fa-twitter fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											twitter.com/jasonstatham
+										</label>
+									</div>
+								</div>
+								<div className="row pt-2">
+									<div className="col-12 col-sm-1">
+										<i className="fab fa-stack-overflow fa-2x" />
+									</div>
+									<div className="col-12 col-sm-11">
+										<label className="text-icon">
+											123456 / alandoe
+										</label>
+									</div>
 								</div>
 							</div>
 						</div>
