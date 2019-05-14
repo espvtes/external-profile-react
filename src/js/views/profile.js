@@ -52,17 +52,6 @@ export class Profile extends React.Component {
 		const skechStyle = {
 			width: "60%"
 		};
-		{
-			/*<div className="row d-flex justify-content-end">
-								<div className="col-12 text-right">
-									<img
-										src="https://www.4geeksacademy.co/wp-content/themes/the-fastest/assets/img/4geeks-icon-black.png"
-										className=" ml-auto"
-										alt="..."
-									/>
-								</div>
-							</div>*/
-		}
 		return (
 			<div className="container-fluid">
 				<div className="row">
@@ -75,7 +64,7 @@ export class Profile extends React.Component {
 											<li className="border-bottom">
 												<a
 													href="#section-top"
-													className="menu-img">
+													className="section-top">
 													<img
 														src="https://frostsnow.com/uploads/biography/2016/12/19/xjason-statham.jpg.pagespeed.ic.mFhCmaxibX.jpg"
 														className="img-menu"
@@ -158,11 +147,11 @@ export class Profile extends React.Component {
 						</div>
 					</div>
 				</div>
-				<hr className="line" />
+				<hr className="line-horizontally" />
 				<div className="container">
 					<div className="row text-center pt-4">
 						<div className="col-12 col-md-6">
-							<div className="bubble text-center font-italic corner">
+							<div className="bubble text-center font-italic corner-bubble">
 								<label className="font-weight-light">
 									I like saving the world
 								</label>
@@ -172,7 +161,7 @@ export class Profile extends React.Component {
 							</label>
 						</div>
 						<div className="col-12 col-md-6">
-							<div className="bubble text-center font-italic corner">
+							<div className="bubble text-center font-italic corner-bubble">
 								<label className="font-weight-light">
 									Killing Bad Boys
 								</label>
@@ -326,7 +315,7 @@ export class Profile extends React.Component {
 							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-									className="mx-auto logo"
+									className="mx-auto geeks-logo"
 									alt="..."
 								/>
 							</div>
@@ -378,7 +367,7 @@ export class Profile extends React.Component {
 							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-									className="mx-auto float-right logo"
+									className="mx-auto float-right geeks-logo"
 									alt="..."
 								/>
 							</div>
@@ -425,7 +414,7 @@ export class Profile extends React.Component {
 							<div className="col-12 col-sm-3 left-border">
 								<img
 									src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-									className="mx-auto float-right logo"
+									className="mx-auto float-right geeks-logo"
 									alt="..."
 								/>
 							</div>
@@ -838,9 +827,9 @@ export class Profile extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-12">
-								<div className="row pt-2">
-									<div className="col-12 col-sm-1">
+							<div className="col">
+								<div className="row row-icons pt-2">
+									<div className="col-12 col-sm-1 ">
 										<i className="fas fa-envelope fa-2x p-2" />
 									</div>
 									<div className="col-12 col-sm-11">
@@ -849,7 +838,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fas fa-phone fa-2x" />
 									</div>
@@ -859,7 +848,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fas fa-globe fa-2x" />
 									</div>
@@ -869,7 +858,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fab fa-linkedin fa-2x" />
 									</div>
@@ -879,7 +868,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fab fa-github fa-2x" />
 									</div>
@@ -889,7 +878,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fab fa-twitter fa-2x" />
 									</div>
@@ -899,7 +888,7 @@ export class Profile extends React.Component {
 										</label>
 									</div>
 								</div>
-								<div className="row pt-2">
+								<div className="row row-icons pt-2">
 									<div className="col-12 col-sm-1">
 										<i className="fab fa-stack-overflow fa-2x" />
 									</div>
