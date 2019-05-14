@@ -175,7 +175,7 @@ export class Profile extends React.Component {
 					<section id="section-1">
 						<div className="row mb-3 pt-4">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-file-invoice text-warning fa-3x icon" />
+								<i className="fas fa-file-invoice text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -217,7 +217,7 @@ export class Profile extends React.Component {
 					<section id="section-2">
 						<div className="row mb-3 py-4">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-language text-warning fa-3x icon" />
+								<i className="fas fa-language text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -270,7 +270,7 @@ export class Profile extends React.Component {
 					<section id="section-3">
 						<div className="row mb-3 py-4">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-bicycle text-warning fa-3x icon" />
+								<i className="fas fa-bicycle text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -294,7 +294,7 @@ export class Profile extends React.Component {
 					<section id="section-4">
 						<div className="row mb-3">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-chart-line text-warning fa-3x icon" />
+								<i className="fas fa-chart-line text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -450,7 +450,7 @@ export class Profile extends React.Component {
 					<section id="section-5">
 						<div className="row mb-3">
 							<div className="col-md-1 pr-0">
-								<i className="far fa-file-code text-warning fa-3x icon" />
+								<i className="far fa-file-code text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -600,7 +600,7 @@ export class Profile extends React.Component {
 					<section id="section-6">
 						<div className="row mb-3">
 							<div className="col-md-1 pr-0">
-								<i className="far fa-star text-warning fa-3x icon" />
+								<i className="far fa-star text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
@@ -715,7 +715,7 @@ export class Profile extends React.Component {
 					<section id="section-8">
 						<div className="row mb-3">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-graduation-cap text-warning fa-3x icon" />
+								<i className="fas fa-graduation-cap text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<span className="font-italic font-weight-light text-dark title">
@@ -818,7 +818,7 @@ export class Profile extends React.Component {
 					<section id="section-9">
 						<div className="row mb-3">
 							<div className="col-md-1 pr-0">
-								<i className="fas fa-user-alt text-warning fa-3x icon" />
+								<i className="fas fa-user-alt text-warning icon" />
 							</div>
 							<div className="col-md-11 pl-0">
 								<label className="font-italic font-weight-light text-dark title">
