@@ -17,9 +17,11 @@
 .parallaxSample{
         background-image: url('https://los40es00.epimg.net/los40/imagenes/2018/08/10/album/1533898556_362198_1533898666_album_normal.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-attachment: fixed;
         height: 800px;
+        /* max-width: 100%; */
+        position: relative;
 }
 .vertical-menu{
     display: flex;
