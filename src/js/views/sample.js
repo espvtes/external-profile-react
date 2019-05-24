@@ -81,9 +81,14 @@ export class Sample extends React.Component {
 								</div>
 							</div>
 						</div>
+						{/*the main name*/}
 						<div className="row">
 							<div className="col-12 text-center">
-								the name of the developer
+								<h1>
+									JASON <strong>STATHAM</strong>
+								</h1>
+								<br />
+								<h6>Full-Stack Developer</h6>
 							</div>
 						</div>
 					</div>
