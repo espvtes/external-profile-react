@@ -84,13 +84,15 @@ export class Sample extends React.Component {
 							</div>
 						</div>
 						{/*the main name*/}
-						<div className="row">
+						<div className="row gradient">
 							<div className="col-12 text-center">
-								<h1>
+								<h1 className="display-4">
 									JASON <strong>STATHAM</strong>
 								</h1>
 								<br />
-								<h6>Full-Stack Developer</h6>
+								<h3 className="bd-highlight font-weight-light">
+									Full-Stack Developer
+								</h3>
 							</div>
 						</div>
 						<hr />
