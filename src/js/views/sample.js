@@ -143,6 +143,58 @@ export class Sample extends React.Component {
 											</label>
 										</div>
 									</div>
+									<div className="row">
+										<div className="col-12">
+											<p className="p text-justify text-muted">
+												Mision-driven full stack
+												developer with a passion for
+												thoughtful UI design,
+												collaboration, and teaching.
+											</p>
+											<p className="p text-justify text-muted">
+												I have always sought out
+												opportunities and challenges
+												that are meaningful to me.
+												Although my professional path
+												has taken many twists and
+												turns-from touring and recording
+												artist, to employee of the years
+												at a non-profit, to dean is
+												scholar at UPenn, to small
+												business owner and entrepeneur -
+												I have never stopped engaging my
+												passion to help others and solve
+												problems.
+											</p>
+											<p className="p text-justify text-muted">
+												As a web developer, I enjoy
+												using my obsessive attention to
+												detail, my unequivocal love for
+												making things, and my
+												mission-driven work ethic to
+												literally change the world. That
+												is why I am excited to make a
+												big impact at a high growth
+												company
+											</p>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*language*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3 py-4">
+												<div className="col-md-1 pr-0">
+													<i className="fas fa-language text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
