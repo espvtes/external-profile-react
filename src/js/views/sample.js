@@ -101,37 +101,27 @@ export class Sample extends React.Component {
 							<div className="col-12">
 								<div className="container">
 									<div className="row">
-										<div className="col-12 col-md-6">
-											<div className="row">
-												<div className="col-12 bubble text-center font-italic corner-bubble">
-													<label className="font-weight-light">
-														I like saving the world
-													</label>
-												</div>
+										<div className="col-12 col-md-6 text-center">
+											<div className="bubble text-center font-italic corner-bubble">
+												<label className="font-weight-light">
+													I like saving the world
+												</label>
 											</div>
-											<div className="row">
-												<div className="col-12">
-													<label className="motto font-italic font-weight-light text-muted">
-														Motto
-													</label>
-												</div>
-											</div>
+
+											<label className="motto font-italic font-weight-light text-muted">
+												Motto
+											</label>
 										</div>
-										<div className="col-12 col-md-6">
-											<div className="row">
-												<div className="col-12 bubble text-center font-italic corner-bubble">
-													<label className="font-weight-light">
-														Killing Bad Boys
-													</label>
-												</div>
+										<div className="col-12 col-md-6 text-center">
+											<div className=" bubble text-center font-italic corner-bubble">
+												<label className="font-weight-light">
+													Killing Bad Boys
+												</label>
 											</div>
-											<div className="row">
-												<div className="col-12">
-													<label className="motto font-italic font-weight-light text-muted">
-														Focus
-													</label>
-												</div>
-											</div>
+
+											<label className="motto font-italic font-weight-light text-muted">
+												Focus
+											</label>
 										</div>
 									</div>
 									{/*summary*/}
@@ -192,6 +182,66 @@ export class Sample extends React.Component {
 												<div className="col-md-11 pl-0">
 													<label className="font-italic font-weight-light text-dark title">
 														&nbsp;L&nbsp;a&nbsp;n&nbsp;g&nbsp;u&nbsp;a&nbsp;g&nbsp;e&nbsp;s
+													</label>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12 col-md-4">
+													<h4 className="p">
+														Idiom:
+														<span className="text-muted p">
+															English
+														</span>
+													</h4>
+													<h4 className="p">
+														Level:
+														<span className="text-muted p">
+															Native
+														</span>
+													</h4>
+												</div>
+												<div className="col-12 col-md-4">
+													<h4 className="p">
+														Idiom:
+														<span className="text-muted p">
+															French
+														</span>
+													</h4>
+													<h4 className="p">
+														Level:
+														<span className="text-muted p">
+															Professional
+														</span>
+													</h4>
+												</div>
+												<div className="col-12 col-md-4">
+													<h4 className="p">
+														Idiom:
+														<span className="text-muted p">
+															Spanish
+														</span>
+													</h4>
+													<h4 className="p">
+														Level:
+														<span className="text-muted p">
+															Professional
+														</span>
+													</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*interests*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3 py-4">
+												<div className="col-md-1 pr-0">
+													<i className="fas fa-bicycle text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;e&nbsp;s&nbsp;t&nbsp;s
 													</label>
 												</div>
 											</div>
