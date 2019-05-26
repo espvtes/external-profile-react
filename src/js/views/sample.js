@@ -54,8 +54,8 @@ export class Sample extends React.Component {
 		};
 
 		return (
-			<div className="container-fluid">
-				<div className="row">
+			<div className="container-fluid p-0">
+				<div className="row p-0">
 					<div className="col-12 p-0">
 						{/*parallax section*/}
 						{/*<div className="row">

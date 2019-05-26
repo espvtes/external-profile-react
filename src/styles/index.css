@@ -34,6 +34,7 @@
     text-align:center;
     z-index: 20;
     position: fixed;
+    /* margin-left: 14px; */
 }
 .icon {
     width: 50px;
@@ -200,8 +201,8 @@ footer {
     }
     .geeks-img {
     position: fixed;
-    right: 25px;
-    top: 2px;
+    right: 36px;
+    top: 4px;
     height: 55px;
     z-index: 20;
 }
