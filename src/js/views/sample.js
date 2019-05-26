@@ -245,6 +245,98 @@ export class Sample extends React.Component {
 													</label>
 												</div>
 											</div>
+											<div className="row text-center">
+												<div className="col-12 col-md-4 p text-muted">
+													<h4>Climbing</h4>
+												</div>
+												<div className="col-12 col-md-4 p text-muted">
+													<h4>Snowboarding</h4>
+												</div>
+												<div className="col-12 col-md-4 p text-muted">
+													<h4>Cooking</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*experiences*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3">
+												<div className="col-md-1 pr-0">
+													<i className="fas fa-chart-line text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;E&nbsp;x&nbsp;p&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;n&nbsp;c&nbsp;e&nbsp;s
+													</label>
+												</div>
+											</div>
+
+											<div className="row">
+												<div className="col-12 col-sm-9 float-left pt-4">
+													<h2 className="pt-2 font-weight-bold">
+														LEAD DEVELOPER
+													</h2>
+													<h2 className="text-muted">
+														2015-Present
+													</h2>
+													<h2 className="text-muted font-weight-light">
+														Startup Hubs, San
+														Francisco
+													</h2>
+												</div>
+												<div className="col-12 col-sm-3 left-border">
+													<img
+														src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+														className="img-fluid w-100"
+														alt="..."
+													/>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12">
+													<p className="p text-justify text-muted pt-4">
+														Describe your role here
+														lorem ipsum dolor sit
+														amet, consetetuer
+														adipiscing elit. Aenean
+														commodo ligula eget
+														dolor. Aenean massa. Cum
+														soccis natoque penatibus
+														el magnis dis paturrient
+														montes, nascetur
+														ridiculus mus. Donec
+														quam felis, ultricies
+														nec, pellentesque eu,
+														pretium quis sem. Nulla
+														consequat massa quis
+														enim. Donec pede justo.
+														Sed ut perspiciatis unde
+														omnis iste natus error
+														sit voluptamen
+														accusantium doloremque
+														laudantium, totam rem
+														aperiam, eaque ipsa quae
+														ab illo inventore
+														veritatis et quasi
+														architecto beatae vitae
+														dicta sunt explicabo.
+													</p>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col">
+													<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
