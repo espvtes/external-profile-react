@@ -56,7 +56,7 @@ export class Sample extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-12">
+					<div className="col-12 p-0">
 						{/*parallax section*/}
 						{/*<div className="row">
 							<div className="col-12 parallaxSample" />
@@ -798,6 +798,251 @@ export class Sample extends React.Component {
 																}>
 																60%
 															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*education*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3">
+												<div className="col-md-1 pr-0">
+													<i className="fas fa-graduation-cap text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<span className="font-italic font-weight-light text-dark title">
+														&nbsp;E&nbsp;d&nbsp;u&nbsp;c&nbsp;a&nbsp;t&nbsp;i&nbsp;o&nbsp;n
+													</span>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12 col-md-6 px-4">
+													<div className="row">
+														<div className="col-12">
+															<h2 className="pt-2 font-weight-bold">
+																MSC IN COMPUTER
+																SCIENCE
+															</h2>
+															<h3 className="text-muted">
+																University of
+																London
+															</h3>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12 col-sm-5">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="img-fluid w-100 float-left"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12 col-sm-1">
+															<i className="far fa-clock fa-2x text-primary pt-2" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<span className="font-weight-bold text-muted pl-2 years">
+																2007-2011
+															</span>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12">
+															<p className="p pt-4 text-justify text-muted">
+																Describe your
+																role here lorem
+																ipsum dolor sit
+																amet,
+																consetetuer
+																adipiscing elit.
+																Aenean commodo
+																ligula eget
+																dolor. Aenean
+																massa. Cum
+																soccis natoque
+																penatibus el
+																magnis dis
+																paturrient
+																montes, nascetur
+																ridiculus mus.
+																Donec quam
+																felis, ultricies
+																nec,
+																pellentesque eu,
+																pretium quis
+																sem.
+															</p>
+															<span className="text-muted p">
+																-Bullet point
+															</span>
+															<br />
+															<span className="text-muted p">
+																-Bullet point
+															</span>
+														</div>
+													</div>
+												</div>
+												<div className="col-12 col-md-6 px-4 left-border">
+													<div className="row">
+														<div className="col-12">
+															<h2 className="pt-2 font-weight-bold">
+																BSC IN APPLIED
+																MATHEMATICS
+															</h2>
+															<h3 className="text-muted">
+																Bristol
+																Universit
+															</h3>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12 col-sm-5">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="img-fluid w-100 float-left"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12 col-sm-1">
+															<i className="far fa-clock fa-2x text-primary pt-2" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<span className="font-weight-bold text-muted pl-2 years">
+																2007-2011
+															</span>
+														</div>
+													</div>
+													<div className="row">
+														<div className="col-12">
+															<p className="p pt-4 text-justify text-muted">
+																Describe your
+																role here lorem
+																ipsum dolor sit
+																amet,
+																consetetuer
+																adipiscing elit.
+																Aenean commodo
+																ligula eget
+																dolor. Aenean
+																massa. Cum
+																soccis natoque
+																penatibus el
+																magnis dis
+																paturrient
+																montes, nascetur
+																ridiculus mus.
+																Donec quam
+																felis, ultricies
+																nec,
+																pellentesque eu,
+																pretium quis
+																sem.
+															</p>
+															<span className="text-muted p">
+																-Bullet point
+															</span>
+															<br />
+															<span className="text-muted p">
+																-Bullet point
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*contact*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3">
+												<div className="col-md-1 pr-0">
+													<i className="fas fa-user-alt text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;C&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t
+													</label>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12">
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1 ">
+															<i className="fas fa-envelope fa-2x p-2" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																jason@jasonstatham.com
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fas fa-phone fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																Phone: 234 2342
+																342
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fas fa-globe fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																jasonstatham.com
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fab fa-linkedin fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																linkein.com/in/jasonstatham
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fab fa-github fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																github.com/jasonstatham
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fab fa-twitter fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																twitter.com/jasonstatham
+															</label>
+														</div>
+													</div>
+													<div className="row row-icons pt-2">
+														<div className="col-12 col-sm-1">
+															<i className="fab fa-stack-overflow fa-2x" />
+														</div>
+														<div className="col-12 col-sm-11">
+															<label className="text-icon">
+																123456 / alandoe
+															</label>
 														</div>
 													</div>
 												</div>
