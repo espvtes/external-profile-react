@@ -1,8 +1,58 @@
 import React from "react";
 import "../../styles/index.css";
+import ReactTooltip from "react-tooltip";
+import { findDOMNode } from "react-dom";
 
 export class Sample extends React.Component {
+	componentDidMount() {
+		let mainNavLinks = document.querySelectorAll("nav ul li a");
+		let mainSections = document.querySelectorAll("main section");
+
+		window.onscroll = event => {
+			let fromTop = window.scrollY;
+
+			mainNavLinks.forEach(link => {
+				let section = document.querySelector(link.hash);
+
+				if (
+					section.offsetTop <= fromTop &&
+					section.offsetTop + section.offsetHeight > fromTop
+				) {
+					link.classList.add("current");
+				} else {
+					link.classList.remove("current");
+				}
+			});
+		};
+	}
+
 	render() {
+		const eduStyle = {
+			width: "100%"
+		};
+		const pythonStyle = {
+			width: "98%"
+		};
+		const angularStyle = {
+			width: "98%"
+		};
+
+		const rubyStyle = {
+			width: "85%"
+		};
+
+		const jsStyle = {
+			width: "98%"
+		};
+
+		const htmlStyle = {
+			width: "95%"
+		};
+
+		const skechStyle = {
+			width: "60%"
+		};
+
 		return (
 			<div className="container-fluid">
 				<div className="row">
@@ -289,7 +339,7 @@ export class Sample extends React.Component {
 												<div className="col-12 col-sm-3 left-border">
 													<img
 														src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
-														className="img-fluid w-100"
+														className="img-fluid w-100 float-right"
 														alt="..."
 													/>
 												</div>
@@ -333,6 +383,421 @@ export class Sample extends React.Component {
 														</div>
 														<div className="p-0 p bd-highlight text-muted">
 															-Bullet point
+														</div>
+													</div>
+												</div>
+											</div>
+											<hr className="border-bottom bg-info pt-1" />
+											<div className="row">
+												<div className="col-12 col-sm-9 float-left pt-4">
+													<h2 className="pt-2 font-weight-bold">
+														SENIOR SOFTWARE ENGINEER
+													</h2>
+													<h2 className="text-muted">
+														2014-2015
+													</h2>
+													<h2 className="text-muted font-weight-light">
+														Google, London
+													</h2>
+												</div>
+												<div className="col-12 col-sm-3 left-border">
+													<img
+														src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+														className="img-fluid w-100 float-right"
+														alt="..."
+													/>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12">
+													<p className="p text-justify text-muted pt-4">
+														Describe your role here
+														lorem ipsum dolor sit
+														amet, consetetuer
+														adipiscing elit. Aenean
+														commodo ligula eget
+														dolor. Aenean massa. Cum
+														soccis natoque penatibus
+														el magnis dis paturrient
+														montes, nascetur
+														ridiculus mus. Donec
+														quam felis, ultricies
+														nec, pellentesque eu,
+														pretium quis sem.
+													</p>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col">
+													<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+													</div>
+												</div>
+											</div>
+											<hr className="border-bottom bg-info pt-1" />
+											<div className="row">
+												<div className="col-12 col-sm-9 float-left pt-4">
+													<h2 className="pt-2 font-weight-bold">
+														UI DEVELOPER
+													</h2>
+													<h2 className="text-muted">
+														2012-2014
+													</h2>
+													<h2 className="text-muted font-weight-light">
+														Amazon, London
+													</h2>
+												</div>
+												<div className="col-12 col-sm-3 left-border">
+													<img
+														src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+														className="mx-auto float-right w-100"
+														alt="..."
+													/>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-12">
+													<p className="p text-justify text-muted pt-4">
+														Describe your role here
+														lorem ipsum dolor sit
+														amet, consetetuer
+														adipiscing elit. Aenean
+														commodo ligula eget
+														dolor. Aenean massa. Cum
+														soccis natoque penatibus
+														el magnis dis paturrient
+														montes, nascetur
+														ridiculus mus. Donec
+														quam felis, ultricies
+														nec, pellentesque eu,
+														pretium quis sem.
+													</p>
+												</div>
+											</div>
+											<div className="row">
+												<div className="col">
+													<div className="d-flex flex-column bd-highlight mb-3 pt-4">
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+														<div className="p-0 p bd-highlight text-muted">
+															-Bullet point
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*projects*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3">
+												<div className="col-md-1 pr-0">
+													<i className="far fa-file-code text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;P&nbsp;r&nbsp;o&nbsp;j&nbsp;e&nbsp;c&nbsp;t
+													</label>
+												</div>
+											</div>
+											<div className="row pt-4">
+												<div className="col-12 col-md-4">
+													<div className="row">
+														<div className="col-12 col-sm-6">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="card-img-top"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="card-body pl-2">
+														<h5 className="card-title">
+															<strong>
+																VELOCITY
+															</strong>
+														</h5>
+														<h5 className="card-text text-info">
+															#Velocity
+														</h5>
+														<p className="card-text text-card">
+															<small className="text-muted text-card">
+																A responsive
+																website template
+																designed to help
+																startup promote,
+																market and sell
+																their products.
+															</small>
+														</p>
+													</div>
+												</div>
+												<div className="col-12 col-md-4 left-border">
+													<div className="row">
+														<div className="col-12 col-sm-6">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="card-img-top"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="card-body pl-2">
+														<h5 className="card-title">
+															<strong>
+																DEVSTUDIO
+															</strong>
+														</h5>
+														<h5 className="card-text text-info">
+															#Devstudio
+														</h5>
+														<p className="card-text text-card">
+															<small className="text-muted">
+																A responsive
+																website template
+																designed to help
+																startup promote,
+																market and sell
+																their products.
+															</small>
+														</p>
+													</div>
+												</div>
+												<div className="col-12 col-md-4 left-border">
+													<div className="row">
+														<div className="col-12 col-sm-6">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="card-img-top"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="card-body pl-2">
+														<h5 className="card-title">
+															<strong>
+																TEMP0
+															</strong>
+														</h5>
+														<h5 className="card-text text-info">
+															#Tempo
+														</h5>
+														<p className="card-text text-card">
+															<small className="text-muted">
+																A responsive
+																website template
+																designed to help
+																startup promote,
+																market and sell
+																their products.
+															</small>
+														</p>
+													</div>
+												</div>
+											</div>
+											<hr className="border-bottom bg-info pt-1" />
+											<div className="row">
+												<div className="col-12 col-md-4">
+													<div className="row">
+														<div className="col-12 col-sm-6">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="card-img-top"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="card-body pl-2">
+														<h5 className="card-title">
+															<strong>
+																ATOM
+															</strong>
+														</h5>
+														<h5 className="card-text text-info">
+															#Atom
+														</h5>
+														<p className="card-text text-card">
+															<small className="text-muted">
+																A responsive
+																website template
+																designed to help
+																startup promote,
+																market and sell
+																their products.
+															</small>
+														</p>
+													</div>
+												</div>
+												<div className="col-12 col-md-4 left-border">
+													<div className="row">
+														<div className="col-12 col-sm-6">
+															<img
+																src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5024/s300/4g-logo-negro-01.png"
+																className="card-img-top"
+																alt="..."
+															/>
+														</div>
+													</div>
+													<div className="card-body pl-2">
+														<h5 className="card-title">
+															<strong>
+																DELTA
+															</strong>
+														</h5>
+														<h5 className="card-text text-info">
+															#Delta
+														</h5>
+														<p className="card-text text-card">
+															<small className="text-muted">
+																A responsive
+																website template
+																designed to help
+																startup promote,
+																market and sell
+																their products.
+															</small>
+														</p>
+													</div>
+												</div>
+												<div className="col-12 col-md-4 left-border" />
+											</div>
+										</div>
+									</div>
+									<hr className="border-bottom" />
+									{/*skills*/}
+									<div className="row">
+										<div className="col-12">
+											<div className="row mb-3">
+												<div className="col-md-1 pr-0">
+													<i className="far fa-star text-warning icon" />
+												</div>
+												<div className="col-md-11 pl-0">
+													<label className="font-italic font-weight-light text-dark title">
+														&nbsp;S&nbsp;k&nbsp;i&nbsp;l&nbsp;l&nbsp;s
+													</label>
+												</div>
+											</div>
+											<div className="row  justify-content-around py-4">
+												<div className="col-12 col-md-6 px-4">
+													<div className="p-2">
+														<label className="python font-weight-bold">
+															Python &amp; Django
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={
+																	pythonStyle
+																}>
+																98%
+															</div>
+														</div>
+													</div>
+													<div className="p-2">
+														<label className="python font-weight-bold">
+															Angular
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={
+																	angularStyle
+																}>
+																98%
+															</div>
+														</div>
+													</div>
+													<div className="p-2">
+														<label className="python font-weight-bold">
+															Rubyon Rails
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={
+																	rubyStyle
+																}>
+																85%
+															</div>
+														</div>
+													</div>
+												</div>
+												<div className="col-12 col-md-6 left-border px-4">
+													<div className="p-2">
+														<label className="python">
+															<strong>
+																Javascript
+																&amp;jQuery
+															</strong>
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={jsStyle}>
+																98%
+															</div>
+														</div>
+													</div>
+													<div className="p-2">
+														<label className="python font-weight-bold">
+															<strong>
+																HTML5 &amp; CSS
+															</strong>
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={
+																	htmlStyle
+																}>
+																95%
+															</div>
+														</div>
+													</div>
+													<div className="p-2">
+														<label className="python font-weight-bold">
+															Sketch &amp;
+															Potophop
+														</label>
+														<div className="progress">
+															<div
+																className="progress-bar"
+																role="progressbar"
+																aria-valuenow="25"
+																aria-valuemin="0"
+																aria-valuemax="100"
+																style={
+																	skechStyle
+																}>
+																60%
+															</div>
 														</div>
 													</div>
 												</div>
