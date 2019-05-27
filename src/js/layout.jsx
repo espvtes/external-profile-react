@@ -6,7 +6,6 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Profile } from "./views/profile.js";
-import { Sample } from "./views/sample.js";
 
 import { External } from "./views/external.jsx";
 import injectContent from "./store/appContext.jsx";
@@ -23,7 +22,6 @@ export class Layout extends React.Component {
 							<Route path="/demo" component={Demo} />
 							<Route path="/external" component={External} />
 							<Route path="/profile" component={Profile} />
-							<Route path="/sample" component={Sample} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
