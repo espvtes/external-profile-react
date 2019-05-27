@@ -61,6 +61,7 @@ export class Sample extends React.Component {
 						{/*<div className="row">
 							<div className="col-12 parallaxSample" />
 						</div>*/}
+
 						<div className="parallaxSample">
 							<div className="row ">
 								<div className="col-12 col-sm-2">
@@ -151,6 +152,23 @@ export class Sample extends React.Component {
 							<div className="col-12">
 								<div className="container">
 									<div className="row">
+										<div className="col-12">
+											<ul className="sample">
+												<i className="fas fa-file-invoice page-item">
+													<a
+														className="page-link"
+														href="#">
+														contact
+													</a>
+												</i>
+												<i className="fas fa-file-invoice page-item" />
+												<a className="sample">
+													summary
+												</a>
+											</ul>
+										</div>
+									</div>
+									<div className="row">
 										<div className="col-12 col-md-6 text-center">
 											<div className="bubble text-center font-italic corner-bubble">
 												<label className="font-weight-light">
@@ -176,13 +194,13 @@ export class Sample extends React.Component {
 									</div>
 									{/*summary*/}
 									<div className="row mb-3 pt-4">
-										<div className="col-12 col-md-1 pr-0">
-											<i className="fas fa-file-invoice text-warning icon" />
-										</div>
-										<div className="col-12 col-md-11 pl-0">
-											<label className="font-italic font-weight-light text-dark title">
-												&nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
-											</label>
+										<div className="col-12 pr-0">
+											<ul classNamwe="sample">
+												<i className="fas fa-file-invoice text-warning icon" />
+												<a className="font-italic font-weight-light text-dark title">
+													&nbsp;S&nbsp;u&nbsp;m&nbsp;m&nbsp;a&nbsp;r&nbsp;y
+												</a>
+											</ul>
 										</div>
 									</div>
 									<div className="row">
