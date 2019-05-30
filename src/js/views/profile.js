@@ -130,12 +130,11 @@ export class Profile extends React.Component {
 						</div>
 					</div>
 				</div>
-
 				<div className="row">
 					<div className="col-12">
 						<div className="d-flex flex-column text-center gradient">
 							<div className="bd-highlight pt-4">
-								<h1 className="display-4">
+								<h1 className="text">
 									JASON <strong>STATHAM</strong>
 								</h1>
 							</div>
